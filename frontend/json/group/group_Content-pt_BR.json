@@ -1,0 +1,181 @@
+{
+    "title":[{
+        "title": "TechWizard"
+    }],
+    
+    "head":[{
+        "title": "Grupos",
+        "icon": "fa fa-users"
+    }],
+    
+    "listButton":[
+        {
+            "icon": "icon-remove",
+            "hint": "Eliminar grupo(s) selecionado(s)."
+        },
+        {
+            "icon": "icon-loading",
+            "hint": "Recarregar tabela grupos."
+        },
+        {
+            "icon": "icon-plus-2",
+            "hint": "Adicionar novo grupo."
+        },
+        {
+            "icon": "icon-file-excel",
+            "hint": "Generar archivo Excel."
+        },
+        {
+            "icon": "icon-file-pdf",
+            "hint": "Generar archivo Pdf."
+        }
+    ],
+    
+    "table":[
+        {
+            "top":[
+                {
+                    "show":"Exibir",
+                    "icon":""
+                },
+                {
+                    "filter":"Buscar",
+                    "icon":"icon-search"
+                }   
+            ] 
+        },
+        {
+            "content":[
+                {
+                    "head":[
+                        {"column":"Nome"},
+                        {"column":"Tipo Id"},
+                        {"column":"Ativo/Inativo"},
+                        {"column":"Opções"}
+                    ]
+                }
+            ] 
+        },
+        {
+            "foot":"hola" 
+        }
+    ],
+    
+    "content":[{
+        "title": "Grupos"
+    }],
+    "modalAddGroup":[{
+        "title": " Adicionar grupo",
+        "icon": "fa fa-users",
+        "buttonAdd":"Adicionar",
+        "buttonClean":"Limpar",
+        "buttonClose":"Fechar",
+        "messageRequired":"Todos os elementos com * são requeridos"
+    }],
+    "modalUpdateGroup":[{
+        "title": " Alterar grupo",
+        "icon": "fa fa-users",
+        "buttonUpdate":"Gravar",
+        "buttonClean":"Limpar",
+        "buttonClose":"Fechar",
+        "messageRequired":"Todos os elementos com * são requeridos"
+    }],
+    "modalDeleteGroup":[{
+        "title": " Eliminar grupo",
+        "icon": "fa fa-users",
+        "buttonDelete":"Eliminar",
+        "buttonClose":"Fechar",
+        "messageConfirm":"¿Desea eliminar los siguientes grupos?"
+    }],
+    "modalAccessGroup":[{
+        "title": " Permissões grupo",
+        "icon": "icon-locked",
+        "messageDescription":"Habilite o inabilite permissões de acesso para o grupo selecionado",
+        "buttonApplyChanges":"Aplicar mudanças",
+        "buttonRestore":"Restaurar",
+        "buttonClose":"Fechar",
+        
+        "textEnableAllAccess": "Habilitar todas as permissões",
+        "textDisableAllAccess": "Inabilitar todas as permissões",
+        "textEnableAccess": "Permissões habilitadas",
+        "textDisableAccess": "Permissões inabilitadas",
+        
+        "textReport": "Relatórios",
+        
+        "textAdministration": "Administração",
+        "textAplication": "Aplicativo",
+        "textAplicationEnable": "Habilitar Aplicativo",
+        
+        "textDashboard": "Dashboard",
+        
+        "textGeneralListCertificate": "Lista Geral Certificados",
+        
+        "textGraphics": "Gráficos",
+        
+        "textGraphicsCoveredCertificatesHousing": "Certificados con cobertura de vivienda",
+        "textGraphicsCoveredCertificatesHousingEnableShow": "Habilitar Listar Certificados con cobertura de vivienda",
+        
+        "textGraphicsCertificatesWithExtensor": "% Certificados com extensores",
+        "textGraphicsCertificatesWithExtensorEnableShow": "Habilitar Listar % Certificados com extensores",
+        
+        "textGraphicsInstallationPerRoom": "% Instalación por habitación",
+        "textGraphicsInstallationPerRoomEnableShow": "Habilitar Listar % Instalación por habitación",
+        
+        "textGraphicsStatusByCertificate": "% Status por certificaos",
+        "textGraphicsStatusByCertificateEnableShow": "Habilitar Listar % Status por certificaos",
+        
+        "textGroup": "Grupos",
+        "textGroupEnableShow": "Habilitar Listar Grupo",
+        "textGroupEnableAdd": "Habilitar Adicionar Grupo",
+        "textGroupEnableUpdate": "Habilitar Alterar Grupo",
+        "textGroupEnableDelete": "Habilitar Eliminar Grupo",
+        "textGroupEnableAccess": "Habilitar Permissões Grupo",
+
+        "textUser": "Usuários",
+        "textUserEnableShow": "Habilitar Listar Usuário",
+        "textUserEnableAdd": "Habilitar Adicionar Usuário",
+        "textUserEnableUpdate": "Habilitar Alterar Usuário",
+        "textUserEnableDelete": "Habilitar Eliminar Usuário",
+        
+        "textProvision": "Provisões",
+        "textServicePlan": "Plano de Serviço",
+        "textServicePlanEnableShow": "Habilitar Listar Plano de Serviço",
+        "textServicePlanEnableAdd": "Habilitar Adicionar Plano de Serviço",
+        "textServicePlanEnableUpdate": "Habilitar Alterar Plano de Serviço",
+        "textServicePlanEnableDelete": "Habilitar Eliminar Plano de Serviço",
+        
+        "textRoom": "Quarto",
+        "textRoomEnableShow": "Habilitar Listar Quarto",
+        "textRoomEnableAdd": "Habilitar Adicionar Quarto",
+        "textRoomEnableUpdate": "Habilitar Alterar Quarto",
+        "textRoomEnableDelete": "Habilitar Eliminar Quarto",
+        
+        "textCpeType": "Tipo CPE",
+        "textCpeTypeEnableShow": "Habilitar Listar Tipo CPE",
+        "textCpeTypeEnableAdd": "Habilitar Adicionar Tipo CPE",
+        "textCpeTypeEnableUpdate": "Habilitar Alterar Tipo CPE",
+        "textCpeTypeEnableDelete": "Habilitar Eliminar Tipo CPE",
+        
+        "textCpeModel": "Modelo CPE",
+        "textCpeModelEnableShow": "Habilitar Listar Modelo CPE",
+        "textCpeModelEnableAdd": "Habilitar Adicionar Modelo CPE",
+        "textCpeModelEnableUpdate": "Habilitar Alterar Modelo CPE",
+        "textCpeModelEnableDelete": "Habilitar Eliminar Modelo CPE",
+        
+        "textExtensorType": "Tipo Extensor",
+        "textExtensorTypeEnableShow": "Habilitar Listar Tipo Extensor",
+        "textExtensorTypeEnableAdd": "Habilitar Adicionar Tipo Extensor",
+        "textExtensorTypeEnableUpdate": "Habilitar Alterar Tipo Extensor",
+        "textExtensorTypeEnableDelete": "Habilitar Eliminar Tipo Extensor",
+        
+        "textExtensorModel": "Modelo Extensor",
+        "textExtensorModelEnableShow": "Habilitar Listar Modelo Extensor",
+        "textExtensorModelEnableAdd": "Habilitar Adicionar Modelo Extensor",
+        "textExtensorModelEnableUpdate": "Habilitar Alterar Modelo Extensor",
+        "textExtensorModelEnableDelete": "Habilitar Eliminar Modelo Extensor",
+        
+        "textTestDevice": "Teste Dispositivos",
+        "textTestDeviceEnableShow": "Habilitar Listar Teste Dispositivos",
+        "textTestDeviceEnableUpdate": "Habilitar Alterar Teste Dispositivos"   
+    }]
+}

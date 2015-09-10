@@ -1,0 +1,39 @@
+{
+    "data":[{
+        "modalName": "naranja",
+        "modalColor": "#FA6800",
+        "modalColorText": "#FFFFFF",
+        "modalActive":1
+    },
+    {
+        "modalName": "negro",
+        "modalColor": "#333333",
+        "modalColorText": "#FFFFFF",
+        "modalActive":1
+    },
+    {
+        "modalName": "plomo",
+        "modalColor": "#D9D9D9",
+        "modalColorText": "#FFFFFF",
+        "modalActive":0
+    },
+    {
+        "modalName": "rojo",
+        "modalColor": "#008287",
+        "modalColorText": "#FFFFFF",
+        "modalActive":1
+    },
+    {
+        "modalName": "celeste",
+        "modalColor": "#4390DF",
+        "modalColorText": "#FFFFFF",
+        "modalActive":1
+    },
+    {
+        "modalName": "rojo oscuro",
+        "modalColor": "#9A1616",
+        "modalColorText": "#FFFFFF",
+        "modalActive":1
+    }
+    ]
+}

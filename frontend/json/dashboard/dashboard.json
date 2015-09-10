@@ -1,0 +1,106 @@
+{
+		
+	"widgetTable": [
+    	{
+	    	"certificatesQuantityActivesJan": "523",
+			"certificatesQuantityActivesFeb": "522",    		
+	    	"certificatesQuantityActivesMar": "300",
+	    	"certificatesQuantityActivesApr": "428",
+	    	"certificatesQuantityActivesMay": "540",
+	    	"certificatesQuantityActivesJun": "325",
+	    	"certificatesQuantityActivesJul": "386",
+	    	"certificatesQuantityActivesAug": "400",
+	    	"certificatesQuantityActivesSep": "654",
+	    	"certificatesQuantityActivesOct": "751",
+	    	"certificatesQuantityActivesNov": "451",
+	    	"certificatesQuantityActivesDec": "720"
+    	}
+    ],
+    	
+    "widgets": [
+    	{
+	    	"certificatesQuantity" : "6000",
+	    	"certificatesClosedQuantity" : "3600",
+	    	"certificatesClosedPercentage" : "60",	       		 		    		
+	    	"certificatesSlopeQuantity" : "480",
+	    	"certificatesSlopePercentage" : "8",	    		 			    	 		
+	    	"certificatesActiveReadyCreatedQuantity" : "1920",
+	    	"certificatesActiveReadyCreatedPercentage" : "32"
+    	},
+    	{
+	    	"certificatesQuantity" : "400",
+	    	"certificatesClosedQuantity" : "240",
+	    	"certificatesClosedPercentage" : "60",	       		 		    		
+	    	"certificatesSlopeQuantity" : "32",
+	   		"certificatesSlopePercentage" : "8",	    		 		 		
+	   		"certificatesActiveReadyCreatedQuantity" : "128",
+	    	"certificatesActiveReadyCreatedPercentage" : "32"
+    	},
+    	{
+	    	"certificatesQuantity" : "100",
+	    	"certificatesClosedQuantity" : "60",
+	    	"certificatesClosedPercentage" : "60",	       		 		    		
+	    	"certificatesSlopeQuantity" : "8",
+	   		"certificatesSlopePercentage" : "8",	    		 		 		
+	   		"certificatesActiveReadyCreatedQuantity" : "32",
+	    	"certificatesActiveReadyCreatedPercentage" : "32"
+    	},
+    	{
+	    	"certificatesQuantity" : "13",
+	    	"certificatesClosedQuantity" : "8",
+	    	"certificatesClosedPercentage" : "60",	       		 		    		
+	    	"certificatesSlopeQuantity" : "1",
+	   		"certificatesSlopePercentage" : "32",	    		 		 		
+	   		"certificatesActiveReadyCreatedQuantity" : "4",
+	    	"certificatesActiveReadyCreatedPercentage" : "32"
+    	},
+    	{
+	    	"certificatesWeek1Quantity" : "0",
+	    	"certificatesWeek2Quantity" : "0",
+	    	"certificatesWeek3Quantity" : "0",
+	    	"certificatesWeek4Quantity" : "0"
+	    	
+    	},
+    	{
+	    	"certificatesDay1Quantity" : "0",
+	    	"certificatesDay2Quantity" : "0",
+	    	"certificatesDay3Quantity" : "0",
+	    	"certificatesDay4Quantity" : "0",
+	    	"certificatesDay5Quantity" : "0",
+	    	"certificatesDay6Quantity" : "0",
+	    	"certificatesDay7Quantity" : "0"
+    	},
+    	{
+	    	"certificatesLast24HoursQuantity" : "0"
+    	},
+    	{
+	    	"certificatesQuantity" : "0",
+	    	"certificatesHomeQuantity" : "0",
+	    	"certificatesHomePercentage" : "0",	       		 		    		
+	    	"certificatesApartmentQuantity" : "0",
+	   		"certificatesApartmentPercentage" : "0"
+    	},
+    	{
+	    	"certificatesQuantity" : "0",
+	    	"certificatesWithExtensorQuantity" : "0",
+	    	"certificatesWithExtensorPercentage" : "0",	       		 		    		
+	    	"certificatesWithOutExtensorQuantity" : "0",
+	   		"certificatesWithOutExtensorPercentage" : "0"
+    	},
+    	{
+	    	"certificatesQuantity" : "0",
+	    	"certificatesMonthTypeVisitAltaQuantity" : "0",
+	    	"certificatesMonthTypeVisitAltaPercentage" : "0",	       		 		    		
+	    	"certificatesMonthTypeVisitSoporteQuantity" : "0",
+	   		"certificatesMonthTypeVisitSoportePercentage" : "0"
+    	},
+    	{
+	    	"certificatesQuantity" : "0",
+	    	"certificatesWeekTypeVisitAltaQuantity" : "0",
+	    	"certificatesWeekTypeVisitAltaPercentage" : "0",	       		 		    		
+	    	"certificatesWeekTypeVisitSoporteQuantity" : "0",
+	   		"certificatesWeekTypeVisitSoportePercentage" : "0"
+    	}
+    ]
+    	
+}

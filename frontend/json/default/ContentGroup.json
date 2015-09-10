@@ -1,0 +1,102 @@
+{
+    "title":[{
+        "title": "TechWizard-Administración"
+    }],
+    
+    "head":[{
+        "title": "Grupos",
+        "icon": "fa fa-users"
+    }],
+    
+    "listButton":[
+        {
+            "icon": "icon-remove",
+            "hint": "Eliminar grupo(s) seleccionado(s)."
+        },
+        {
+            "icon": "icon-loading",
+            "hint": "Recargar tabla grupos."
+        },
+        {
+            "icon": "icon-plus-2",
+            "hint": "Agregar nuevo grupo."
+        },
+        {
+            "icon": "icon-file-excel",
+            "hint": "Generar archivo Excel."
+        },
+        {
+            "icon": "icon-file-pdf",
+            "hint": "Generar archivo Pdf."
+        }
+    ],
+    
+    "table":[
+        {
+            "top":[
+                {
+                    "show":"Mostrar",
+                    "icon":""
+                },
+                {
+                    "filter":"Buscar",
+                    "icon":"icon-search"
+                }   
+            ] 
+        },
+        {
+            "content":[
+                {
+                    "head":[
+                        {"column":"Id"},
+                        {"column":"Nombre"},
+                        {"column":"Predeterminado Si/No"},
+                        {"column":"Activo Activo/Inactivo"},
+                        {"column":"Opciones"}
+                    ]
+                }
+            ] 
+        },
+        {
+            "foot":"hola" 
+        }
+    ],
+    
+    "content":[{
+        "title": "Grupos"
+    }],
+    "modalAddGroup":[{
+        "title": " Nuevo Grupo",
+        "icon": "fa fa-users",
+        "buttonAdd":"Agregar",
+        "buttonClean":"Limpiar",
+        "buttonClose":"Cerrar",
+        "messageRequired":"Todos los elementos con * son requeridos"
+    }],
+    "modalUpdateGroup":[{
+        "title": " Modificar Grupo",
+        "icon": "fa fa-users",
+        "buttonUpdate":"Modificar",
+        "buttonClean":"Limpiar",
+        "buttonClose":"Cerrar",
+        "messageRequired":"Todos los elementos con * son requeridos"
+    }],
+    "modalDeleteGroup":[{
+        "title": " Eliminar Grupo",
+        "icon": "fa fa-users",
+        "buttonDelete":"Eliminar",
+        "buttonClose":"Cerrar",
+        "messageConfirm":"¿Desea eliminar los siguientes grupos?"
+    }],
+    "modalAccessGroup":[{
+        "title": " Permisos Grupo",
+        "icon": "icon-locked",
+        "messageDescription":"Habilite o deshabilite permisos de acceso para el grupo seleccionado",
+        "buttonApplyChanges":"Aplicar Cambios",
+        "buttonRestore":"Restaurar",
+        "buttonClose":"Cerrar"
+    }]
+}
+
+
+

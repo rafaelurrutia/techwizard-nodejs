@@ -1,0 +1,110 @@
+{
+    "elements":[{
+        "name": "planServiceName",
+        "htmlLabel":"* Nombre Plan:",
+        "htmlPlaceholder":"Nombre Plan",
+        "htmlErrorPlaceholder":"Nombre Plan Requerido",
+        "htmlFormElementName": "modalPlanServiceInputNamePlanService",
+        "htmlFormElementType": "text",
+        "htmlAutocomplete": "off",
+        "htmlAutofocus": "",
+        "dataRequired": "yes",
+        "dataTypeElementRequired": "tn--",
+        "dataRange": "5-30",
+        "dataOrder": 1,
+        "elementDialogBoxTitle": "",
+        "elementDialogBoxMessage": "",
+        "elementDialogBoxExample": "",
+         "elementError":
+         [
+          {
+           "errorTitle":"Error Nombre Plan de Contratación, ",
+           "errorMessage":"el texto es requerido.",
+           "errorExample":""
+          },
+          {
+           "errorTitle":"Error Nombre Plan de Servicio, ",
+           "errorMessage":"solo puedes ingresar letras y números entre un rango de 5 a 255 caracteres.",
+           "errorExample":""   
+          },
+          {
+           "errorTitle":"",
+           "errorMessage":"",
+           "errorExample":""   
+          }
+         ]
+    },
+    {
+        "name": "planServiceUpload",
+        "htmlLabel":"* Valor Upload Plan:",
+        "htmlPlaceholder":"Valor Upload en Kbps",
+        "htmlErrorPlaceholder":"Valor Upload Requerido",
+        "htmlFormElementName": "modalPlanServiceInputUploadPlanService",
+        "htmlFormElementType": "text",
+        "htmlAutocomplete": "off",
+        "htmlAutofocus": "",
+        "dataRequired": "yes",
+        "dataTypeElementRequired": "n-0",
+        "dataRange": "2-8",
+        "dataOrder": 2,
+        "elementDialogBoxTitle": "",
+        "elementDialogBoxMessage": "",
+        "elementDialogBoxExample": "",
+         "elementError":
+         [
+          {
+           "errorTitle":"Error valor upload Plan de Servicio, ",
+           "errorMessage":"el texto es requerido.",
+           "errorExample":""
+          },
+          {
+           "errorTitle":"Error valor upload Plan de Servicio, ",
+           "errorMessage":"solo puedes ingresar números entre un rango de 2 a 6 caracteres.",
+           "errorExample":""   
+          },
+          {
+           "errorTitle":"",
+           "errorMessage":"",
+           "errorExample":""   
+          }
+         ]
+    },
+    {
+        "name": "planServiceDownload",
+        "htmlLabel":"* Valor Download Plan:",
+        "htmlPlaceholder":"Valor Download en kbps",
+        "htmlErrorPlaceholder":"Valor Download Requerido",
+        "htmlFormElementName": "modalPlanServiceInputDownloadPlanService",
+        "htmlFormElementType": "text",
+        "htmlAutocomplete": "off",
+        "htmlAutofocus": "",
+        "dataRequired": "yes",
+        "dataTypeElementRequired": "n-0",
+        "dataRange": "2-8",
+        "dataOrder": 3,
+        "elementDialogBoxTitle": "",
+        "elementDialogBoxMessage": "",
+        "elementDialogBoxExample": "",
+         "elementError":
+         [
+          {
+           "errorTitle":"Error valor download Plan de Servicio, ",
+           "errorMessage":"el texto es requerido.",
+           "errorExample":""
+          },
+          {
+           "errorTitle":"Error valor download Plan de Servicio, ",
+           "errorMessage":"solo puedes ingresar números entre un rango de 2 a 6 caracteres.",
+           "errorExample":""   
+          },
+          {
+           "errorTitle":"",
+           "errorMessage":"",
+           "errorExample":""   
+          }
+         ]
+    }
+
+    ]
+}
+

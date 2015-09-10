@@ -1,0 +1,26 @@
+@import "variables.less";
+
+.metro .hint {
+    color: @hint-textColor;
+    border-color: @hint-backgroundColor;
+    background-color: @hint-backgroundColor!important;
+    border-radius:8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+.metro .hint.bottom:before,
+.metro .hint.bottom:after {
+    border-bottom: 10px solid @hint-backgroundColor;
+}
+.metro .hint.top:before,
+.metro .hint.top:after {
+    border-top: 10px solid @hint-backgroundColor;
+}
+.metro .hint.left:before,
+.metro .hint.left:after {
+    border-left: 10px solid @hint-backgroundColor;
+}
+.metro .hint.right:before,
+.metro .hint.right:after {
+    border-right: 10px solid @hint-backgroundColor;
+}

@@ -1,0 +1,111 @@
+{
+    "data":[
+        {
+            "sidebarTitle": "Reportes",
+            "sidebarIcon": "icon-copy",
+            "sidebarSubcategory": [
+                {
+                    "sidebarName": "Dashboard",
+                    "sidebarHref": "../dashboard/",
+                    "sidebarIcon": "icon-dashboard",
+                    "sidebarNumber": 0
+                },
+                {
+                    "sidebarName": "Listado General de Certificados",
+                    "sidebarHref": "../generalListCertificate/",
+                    "sidebarIcon": "icon-copy",
+                    "sidebarNumber": 1
+                },
+                {
+                    "sidebarName": "Gráficos",
+                    "sidebarHref": "#",
+                    "sidebarIcon": "icon-stats-up",
+                    "sidebarNumber": 2,
+                    "sidebarItems": [
+                        {
+                            "itemName": "Certificados con cobertura vivienda",
+                            "itemHref": "../certifiedHomeCoverage/",
+                            "itemIcon": ""
+                        },
+                        {
+                            "itemName": "% Certificados con extensores",
+                            "itemHref": "../certifiedHighPropagation/",
+                            "itemIcon": ""
+                        },
+                        {
+                            "itemName": "% Instalación por habitación",
+                            "itemHref": "../certifiedTime/",
+                            "itemIcon": ""
+                        },
+                        {
+                            "itemName": "% Status por certificados",
+                            "itemHref": "../speedtest/",
+                            "itemIcon": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sidebarTitle": "Administración",
+            "sidebarIcon": "icon-user",
+            "sidebarSubcategory": [
+                {
+                    "sidebarName": "Grupos",
+                    "sidebarHref": "../group/",
+                    "sidebarIcon": "fa fa-users",
+                    "sidebarNumber": 3
+                },
+                {
+                    "sidebarName": "Usuarios",
+                    "sidebarHref": "../user/",
+                    "sidebarIcon": "icon-user",
+                    "sidebarNumber": 4
+                },
+                {
+                    "sidebarName": "Provisiones",
+                    "sidebarHref": "#",
+                    "sidebarIcon": "icon-cog",
+                    "sidebarNumber": 5,
+                    "sidebarItems": [
+                        {
+                            "itemName": "Planes de Contratación",
+                            "itemHref": "../planService/",
+                            "itemIcon": ""
+                        },
+                        {
+                            "itemName": "Habitaciones",
+                            "itemHref": "../room/",
+                            "itemIcon": ""
+                        },
+                        {
+                            "itemName": "Tipos CPE",
+                            "itemHref": "../cpeType/",
+                            "itemIcon": ""
+                        },
+                        {
+                            "itemName": "Modelos CPE",
+                            "itemHref": "../cpeModel/",
+                            "itemIcon": ""
+                        },
+                        {
+                            "itemName": "Tipo Extensores",
+                            "itemHref": "../extensorType/",
+                            "itemIcon": ""
+                        },
+                        {
+                            "itemName": "Modelo Extensores",
+                            "itemHref": "../extensorModel/",
+                            "itemIcon": ""
+                        },
+                        {
+                            "itemName": "Prueba Dispositivos",
+                            "itemHref": "../settingAplication/",
+                            "itemIcon": ""
+                        }
+                    ]
+                }
+            ] 
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+.login_footer{
+    width: 100%;
+    position:fixed;
+    bottom:0;
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Segoe UI Light_','Open Sans Light',Verdana,Arial,Helvetica,sans-serif;
+    font-size: 14px;
+}

@@ -1,0 +1,93 @@
+{
+    "title":[{
+        "title": "TechWizard"
+    }],
+    
+    "head":[{
+        "title": "Modelo Extensores",
+        "icon": "icon-clipboard-2"
+    }],
+    
+    "listButton":[
+        {
+            "icon": "icon-remove",
+            "hint": "Eliminar modelo(s) Extensor(es) seleccionado(s)."
+        },
+        {
+            "icon": "icon-loading",
+            "hint": "Recargar tabla modelo extensor."
+        },
+        {
+            "icon": "icon-plus-2",
+            "hint": "Agregar nuevo modelo extensor."
+        },
+        {
+            "icon": "icon-file-excel",
+            "hint": "Generar archivo excel."
+        },
+        {
+            "icon": "icon-file-pdf",
+            "hint": "Generar archivo pdf."
+        }
+    ],
+    
+    "table":[
+        {
+            "top":[
+                {
+                    "show":"Mostrar",
+                    "icon":""
+                },
+                {
+                    "filter":"Buscar",
+                    "icon":"icon-search"
+                }   
+            ] 
+        },
+        {
+            "content":[
+                {
+                    "head":[
+                        {"column":"Nombre"},
+                        {"column":"Upload"},
+                        {"column":"Download"},
+                        {"column":"Opciones"}
+                    ]
+                }
+            ] 
+        },
+        {
+            "foot":"hola" 
+        }
+    ],
+    
+    "content":[{
+        "title": "Modelo Extensores"
+    }],
+    "modalAddExtensorModel":[{
+        "title": " Agregar modelo extensor",
+        "icon": "icon-clipboard-2",
+        "buttonAdd":"Agregar",
+        "buttonClean":"Limpiar",
+        "buttonClose":"Cerrar",
+        "messageRequired":"Todos los elementos con * son requeridos"
+    }],
+    "modalUpdateExtensorModel":[{
+        "title": " Modificar modelo extensor",
+        "icon": "icon-clipboard-2",
+        "buttonUpdate":"Modificar",
+        "buttonClean":"Limpiar",
+        "buttonClose":"Cerrar",
+        "messageRequired":"Todos los elementos con * son requeridos"
+    }],
+    "modalDeleteExtensorModel":[{
+        "title": " Eliminar modelo extensor",
+        "icon": "icon-clipboard-2",
+        "buttonDelete":"Eliminar",
+        "buttonClose":"Cerrar",
+        "messageConfirm":"¿Desea eliminar los siguientes Modelo(s) Extensor(es)?"
+    }]
+}
+
+
+

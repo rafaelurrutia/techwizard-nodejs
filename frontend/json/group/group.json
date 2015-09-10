@@ -1,0 +1,35 @@
+{
+	"data": [
+		{
+			"_id": "53aaedabae663c6972d2ab34",
+			"name": "T\u00e9cnico",
+			"type": "Rut",
+			"active": "1",
+			"privileges": "sectionDashboard,0|sectionGeneralListCertificate,0|sectionGroup,0,0,0,0,0|sectionUser,0,0,0,0|sectionPlanService,0,0,0,0|sectionRoom,0,0,0,0|sectionCPEType,0,0,0,0|sectionCPEModel,0,0,0,0|sectionExtensorType,0,0,0,0|sectionExtensorModel,0,0,0,0|sectionApplicationSettings,0,0|sectionSoftware,0"
+		}, {
+			"_id": "53aaedabae663c6972d2ab35",
+			"name": "Marketing",
+			"type": "String",
+			"active": "1",
+			"privileges": "sectionDashboard,0|sectionGeneralListCertificate,0|sectionGroup,0,0,0,0,0|sectionUser,0,0,0,0|sectionPlanService,0,0,0,0|sectionRoom,0,0,0,0|sectionCPEType,0,0,0,0|sectionCPEModel,0,0,0,0|sectionExtensorType,0,0,0,0|sectionExtensorModel,0,0,0,0|sectionApplicationSettings,0,0|sectionSoftware,0"
+		}, {
+			"_id": "53aaedabae663c6972d2ab36",
+			"name": "RRHH",
+			"type": "Num\u00e9rico",
+			"active": "1",
+			"privileges": "sectionDashboard,0|sectionGeneralListCertificate,0|sectionGroup,0,0,0,0,0|sectionUser,0,0,0,0|sectionPlanService,0,0,0,0|sectionRoom,0,0,0,0|sectionCPEType,0,0,0,0|sectionCPEModel,0,0,0,0|sectionExtensorType,0,0,0,0|sectionExtensorModel,0,0,0,0|sectionApplicationSettings,0,0|sectionSoftware,0"
+		}, {
+			"_id": "53aaedabae663c6972d2ab37",
+			"name": "Finanzas",
+			"type": "String",
+			"active": "0",
+			"privileges": "sectionDashboard,1|sectionGeneralListCertificate,1|sectionGroup,1,0,0,0,0|sectionUser,1,0,0,0|sectionPlanService,1,0,0,0|sectionRoom,1,0,0,0|sectionCPEType,1,0,0,0|sectionCPEModel,1,0,0,0|sectionExtensorType,1,0,0,0|sectionExtensorModel,1,0,0,0|sectionApplicationSettings,1,0|sectionSoftware,1"
+		}, {
+			"_id": "53aaedabae663c6972d2ab38",
+			"name": "admin",
+			"type": "Numérico",
+			"active": "1",
+			"privileges": "sectionDashboard,1|sectionGeneralListCertificate,1|sectionGroup,1,1,1,1,1|sectionUser,1,1,1,1|sectionPlanService,1,1,1,1|sectionRoom,1,1,1,1|sectionCPEType,1,1,1,1|sectionCPEModel,1,1,1,1|sectionExtensorType,1,1,1,1|sectionExtensorModel,1,1,1,1|sectionApplicationSettings,1,1|sectionSoftware,1"
+		}
+	]
+}

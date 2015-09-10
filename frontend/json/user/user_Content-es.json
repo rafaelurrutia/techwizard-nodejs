@@ -1,0 +1,93 @@
+{
+    "title":[{
+        "title": "TechWizard"
+    }],
+    
+    "head":[{
+        "title": "Usuarios",
+        "icon": "icon-user"
+    }],
+    
+    "listButton":[
+        {
+            "icon": "icon-remove",
+            "hint": "Eliminar usuario(s) seleccionado(s)."
+        },
+        {
+            "icon": "icon-loading",
+            "hint": "Recargar tabla usuarios."
+        },
+        {
+            "icon": "icon-plus-2",
+            "hint": "Agregar nuevo usuario."
+        },
+        {
+            "icon": "icon-file-excel",
+            "hint": "Generar archivo Excel."
+        },
+        {
+            "icon": "icon-file-pdf",
+            "hint": "Generar archivo Pdf."
+        }
+    ],
+    
+    "table":[
+        {
+            "top":[
+                {
+                    "show":"Mostrar",
+                    "icon":""
+                },
+                {
+                    "filter":"Buscar",
+                    "icon":"icon-search"
+                }   
+            ] 
+        },
+        {
+            "content":[
+                {
+                    "head":[
+                        {"column":"Nombre"},
+                        {"column":"Upload"},
+                        {"column":"Download"},
+                        {"column":"Opciones"}
+                    ]
+                }
+            ] 
+        },
+        {
+            "foot":"hola" 
+        }
+    ],
+    
+    "content":[{
+        "title": "Usuarios"
+    }],
+    "modalAddUser":[{
+        "title": " Nuevo usuario",
+        "icon": "icon-user",
+        "buttonAdd":"Agregar",
+        "buttonClean":"Limpiar",
+        "buttonClose":"Cerrar",
+        "messageRequired":"Todos los elementos con * son requeridos"
+    }],
+    "modalUpdateUser":[{
+        "title": " Modificar Usuario",
+        "icon": "icon-user",
+        "buttonUpdate":"Modificar",
+        "buttonClean":"Limpiar",
+        "buttonClose":"Cerrar",
+        "messageRequired":"Todos los elementos con * son requeridos"
+    }],
+    "modalDeleteUser":[{
+        "title": " Eliminar Usuario",
+        "icon": "icon-user",
+        "buttonDelete":"Eliminar",
+        "buttonClose":"Cerrar",
+        "messageConfirm":"¿Desea eliminar los siguientes usuarios(s)?"
+    }]
+}
+
+
+

@@ -1,0 +1,93 @@
+{
+    "title":[{
+        "title": "TechWizard"
+    }],
+    
+    "head":[{
+        "title": "Plano de serviço",
+        "icon": "icon-clipboard-2"
+    }],
+    
+    "listButton":[
+        {
+            "icon": "icon-remove",
+            "hint": "Eliminar plano(s) de serviço (s) selecionado(s)."
+        },
+        {
+            "icon": "icon-loading",
+            "hint": "Recarregar tabela plano de serviço."
+        },
+        {
+            "icon": "icon-plus-2",
+            "hint": "Adicionar plano de serviço."
+        },
+        {
+            "icon": "icon-file-excel",
+            "hint": "Generar archivo Excel."
+        },
+        {
+            "icon": "icon-file-pdf",
+            "hint": "Generar archivo Pdf."
+        }
+    ],
+    
+    "table":[
+        {
+            "top":[
+                {
+                    "show":"Exibir",
+                    "icon":""
+                },
+                {
+                    "filter":"Buscar",
+                    "icon":"icon-search"
+                }   
+            ] 
+        },
+        {
+            "content":[
+                {
+                    "head":[
+                        {"column":"Nombre"},
+                        {"column":"Upload"},
+                        {"column":"Download"},
+                        {"column":"Opciones"}
+                    ]
+                }
+            ] 
+        },
+        {
+            "foot":"hola" 
+        }
+    ],
+    
+    "content":[{
+        "title": "Plano de serviço"
+    }],
+    "modalAddPlanService":[{
+        "title": " Adicionar plano de serviço",
+        "icon": "icon-clipboard-2",
+        "buttonAdd":"Adicionar",
+        "buttonClean":"Limpar",
+        "buttonClose":"Fechar",
+        "messageRequired":"Todos os elementos com * são requeridos."
+    }],
+    "modalUpdatePlanService":[{
+        "title": " Alterar plano de serviço",
+        "icon": "icon-clipboard-2",
+        "buttonUpdate":"Alterar",
+        "buttonClean":"Limpar",
+        "buttonClose":"Fechar",
+        "messageRequired":"Todos os elementos com * são requeridos."
+    }],
+    "modalDeletePlanService":[{
+        "title": " Eliminar plano de serviço",
+        "icon": "icon-clipboard-2",
+        "buttonDelete":"Eliminar",
+        "buttonClose":"Fechar",
+        "messageConfirm":"¿Desea eliminar los siguientes Plan de Servicio(s)?"
+    }]
+}
+
+
+

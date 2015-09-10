@@ -1,0 +1,93 @@
+{
+    "title":[{
+        "title": "TechWizard"
+    }],
+    
+    "head":[{
+        "title": "Modelos CPE",
+        "icon": "icon-clipboard-2"
+    }],
+    
+    "listButton":[
+        {
+            "icon": "icon-remove",
+            "hint": "Eliminar modelo(s) CPE selecionado(s)."
+        },
+        {
+            "icon": "icon-loading",
+            "hint": "Recarregar tabela Modelo CPE."
+        },
+        {
+            "icon": "icon-plus-2",
+            "hint": "Adicionar novo modelo CPE."
+        },
+        {
+            "icon": "icon-file-excel",
+            "hint": "Generar archivo excel."
+        },
+        {
+            "icon": "icon-file-pdf",
+            "hint": "Generar archivo pdf."
+        }
+    ],
+    
+    "table":[
+        {
+            "top":[
+                {
+                    "show":"Mostrar",
+                    "icon":""
+                },
+                {
+                    "filter":"Buscar",
+                    "icon":"icon-search"
+                }   
+            ] 
+        },
+        {
+            "content":[
+                {
+                    "head":[
+                        {"column":"Nombre"},
+                        {"column":"Upload"},
+                        {"column":"Download"},
+                        {"column":"Opciones"}
+                    ]
+                }
+            ] 
+        },
+        {
+            "foot":"hola" 
+        }
+    ],
+    
+    "content":[{
+        "title": "Modelos CPE"
+    }],
+    "modalAddCpeModel":[{
+        "title": " Adicionar modelo CPE",
+        "icon": "icon-clipboard-2",
+        "buttonAdd":"Adicionar",
+        "buttonClean":"Limpar",
+        "buttonClose":"Fechar",
+        "messageRequired":"Todos os elementos com * são requeridos."
+    }],
+    "modalUpdateCpeModel":[{
+        "title": " Alterar modelo CPE",
+        "icon": "icon-clipboard-2",
+        "buttonUpdate":"Alterar",
+        "buttonClean":"Limpar",
+        "buttonClose":"Fechar",
+        "messageRequired":"Todos os elementos com * são requeridos."
+    }],
+    "modalDeleteCpeModel":[{
+        "title": " Eliminar modelo Cpe",
+        "icon": "icon-clipboard-2",
+        "buttonDelete":"Eliminar",
+        "buttonClose":"Cerrar",
+        "messageConfirm":"¿Desea eliminar los siguientes modelo(s) Cpe?"
+    }]
+}
+
+
+

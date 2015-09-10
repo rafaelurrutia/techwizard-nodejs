@@ -1,0 +1,17 @@
+{    
+    "content":[{
+        "text1": "Inicio Sesión",
+        "text2": "Por favor ingrese nombre de usuario y contraseña",
+        "text3": "Los campos son requeridos",
+        "text4": "Ingresar",
+               
+        "text5": "Usuario",
+        "text6": "Contraseña",
+        "text7": "Seleccione Idioma",
+        "text8": "Español",
+        "text9": "English",
+        "text10": "Habitaciones",
+        "text11": "Português"
+        
+    }]
+}

@@ -1,0 +1,15 @@
+{
+	"data": [
+		{
+			"_id": "149e9677a5989fd342ae44213df68868",
+			"group": "admin",
+			"username": "admin",
+			"name": "vtr",
+			"lastName": "vtr",
+			"password": "1234",
+			"email": "vtr@vtr.cl",
+			"phone": "123456",
+			"active": "1"
+		}
+	]
+}

@@ -1,0 +1,93 @@
+{
+    "title":[{
+        "title": "TechWizard"
+    }],
+    
+    "head":[{
+        "title": "Packages",
+        "icon": "icon-clipboard-2"
+    }],
+    
+    "listButton":[
+        {
+            "icon": "icon-remove",
+            "hint": "Eliminar plan de servicio(s) seleccionado(s)."
+        },
+        {
+            "icon": "icon-loading",
+            "hint": "Reload packages table."
+        },
+        {
+            "icon": "icon-plus-2",
+            "hint": "Add new package."
+        },
+        {
+            "icon": "icon-file-excel",
+            "hint": "Generar archivo Excel."
+        },
+        {
+            "icon": "icon-file-pdf",
+            "hint": "Generar archivo Pdf."
+        }
+    ],
+    
+    "table":[
+        {
+            "top":[
+                {
+                    "show":"Mostrar",
+                    "icon":""
+                },
+                {
+                    "filter":"Buscar",
+                    "icon":"icon-search"
+                }   
+            ] 
+        },
+        {
+            "content":[
+                {
+                    "head":[
+                        {"column":"Nombre"},
+                        {"column":"Upload"},
+                        {"column":"Download"},
+                        {"column":"Opciones"}
+                    ]
+                }
+            ] 
+        },
+        {
+            "foot":"hola" 
+        }
+    ],
+    
+    "content":[{
+        "title": "Packages"
+    }],
+    "modalAddPlanService":[{
+        "title": " Add package",
+        "icon": "icon-clipboard-2",
+        "buttonAdd":"Add",
+        "buttonClean":"Clear",
+        "buttonClose":"Close",
+        "messageRequired":"All elements with * are required."
+    }],
+    "modalUpdatePlanService":[{
+        "title": " Update package",
+        "icon": "icon-clipboard-2",
+        "buttonUpdate":"Update",
+        "buttonClean":"Clear",
+        "buttonClose":"Close",
+        "messageRequired":"All elements with * are required."
+    }],
+    "modalDeletePlanService":[{
+        "title": " Eliminar Plan de Servicio",
+        "icon": "icon-clipboard-2",
+        "buttonDelete":"Eliminar",
+        "buttonClose":"Cerrar",
+        "messageConfirm":"¿Desea eliminar los siguientes Plan de Servicio(s)?"
+    }]
+}
+
+
+

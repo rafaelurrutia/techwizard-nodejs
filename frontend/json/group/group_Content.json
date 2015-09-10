@@ -1,0 +1,188 @@
+{
+    "title":[{
+        "title": "TechWizard"
+    }],
+    
+    "head":[{
+        "title": "Groups",
+        "icon": "fa fa-users"
+    }],
+    
+    "listButton":[
+        {
+            "icon": "icon-remove",
+            "hint": "Delete selected groups."
+        },
+        {
+            "icon": "icon-loading",
+            "hint": "Reload groups table."
+        },
+        {
+            "icon": "icon-plus-2",
+            "hint": "Add new group."
+        },
+        {
+            "icon": "icon-file-excel",
+            "hint": "Generate Excel file."
+        },
+        {
+            "icon": "icon-file-pdf",
+            "hint": "Generate Pdf file."
+        }
+    ],
+    
+    "table":[
+        {
+            "top":[
+                {
+                    "show":"Mostrar",
+                    "icon":""
+                },
+                {
+                    "filter":"Buscar",
+                    "icon":"icon-search"
+                }   
+            ] 
+        },
+        {
+            "content":[
+                {
+                    "head":[
+                        {"column":"Nombre"},
+                        {"column":"Tipo Id"},
+                        {"column":"Activo/Inactivo"},
+                        {"column":"Opciones"}
+                    ]
+                }
+            ] 
+        },
+        {
+            "foot":"hola" 
+        }
+    ],
+    
+    "content":[{
+        "title": "Groups"
+    }],
+    "modalAddGroup":[{
+        "title": " Add group",
+        "icon": "fa fa-users",
+        "buttonAdd":"Add",
+        "buttonClean":"Clear",
+        "buttonClose":"Close",
+        "messageRequired":"All elements with * are required."
+    }],
+    "modalUpdateGroup":[{
+        "title": " Update group",
+        "icon": "fa fa-users",
+        "buttonUpdate":"Update",
+        "buttonClean":"Clear",
+        "buttonClose":"Close",
+        "messageRequired":"All elements with * are required."
+    }],
+    "modalDeleteGroup":[{
+        "title": " Delete grupo",
+        "icon": "fa fa-users",
+        "buttonDelete":"Delete",
+        "buttonClose":"Cerrar",
+        "messageConfirm":"¿Desea eliminar los siguientes grupos?"
+    }],
+    "modalAccessGroup":[{
+        "title": " Access group",
+        "icon": "icon-locked",
+        "messageDescription":"Enable or disable access permissions for the selected group.",
+        "buttonApplyChanges":"Apply Changes",
+        "buttonRestore":"Restore",
+        "buttonClose":"Close",
+        
+		"textEnableAllAccess": "Enable all access",
+        "textDisableAllAccess": "Disable all access",
+        "textEnableAccess": "Enable access",
+        "textDisableAccess": "Disable access",
+        
+        "textReport": "Reports",
+        
+        "textAdministration": "Management",
+        "textAplication": "Aplication",
+        "textAplicationEnable": "Enable Aplication",
+        
+        "textDashboard": "Dashboard",
+        
+        "textGeneralListCertificate": "Detail certificates",
+        
+        "textGraphics": "Graphics",
+        
+        "textGraphicsCoveredCertificatesHousing": "Covered certifcates housing",
+        "textGraphicsCoveredCertificatesHousingEnableShow": "Enable Show Covered certifcates housing",
+        
+        "textGraphicsCertificatesWithExtensor": "% Certificates with extensors",
+        "textGraphicsCertificatesWithExtensorEnableShow": "Enable Show % Certificates with extensors",
+        
+        "textGraphicsInstallationPerRoom": "% Installation per room",
+        "textGraphicsInstallationPerRoomEnableShow": "Enable Show % Installation per room",
+        
+        "textGraphicsStatusByCertificate": "% Status by certificate",
+        "textGraphicsStatusByCertificateEnableShow": "Enable Show % Status by certificate",
+        
+        
+        "textGroup": "Groups",
+        "textGroupEnableShow": "Enable Show Group",
+        "textGroupEnableAdd": "Enable Add Group",
+        "textGroupEnableUpdate": "Enable Update Group",
+        "textGroupEnableDelete": "Enable Delete Group",
+        "textGroupEnableAccess": "Enable Permisos Group",
+
+        "textUser": "Users",
+        "textUserEnableShow": "Enable Show User",
+        "textUserEnableAdd": "Enable Add User",
+        "textUserEnableUpdate": "Enable Update User",
+        "textUserEnableDelete": "Enable Delete User",
+        
+        "textProvision": "Configuration",
+        "textServicePlan": "Package",
+        "textServicePlanEnableShow": "Enable Show Package",
+        "textServicePlanEnableAdd": "Enable Add Package",
+        "textServicePlanEnableUpdate": "Enable Update Package",
+        "textServicePlanEnableDelete": "Enable Delete Package",
+        
+        "textRoom": "Room",
+        "textRoomEnableShow": "Enable Show Room",
+        "textRoomEnableAdd": "Enable Add Room",
+        "textRoomEnableUpdate": "Enable Update Room",
+        "textRoomEnableDelete": "Enable Delete Room",
+        
+        "textCpeType": "CPE Type",
+        "textCpeTypeEnableShow": "Enable Show CPE Type",
+        "textCpeTypeEnableAdd": "Enable Add CPE Type",
+        "textCpeTypeEnableUpdate": "Enable Update CPE Type",
+        "textCpeTypeEnableDelete": "Enable Delete CPE Type",
+        
+        "textCpeModel": "CPE Model",
+        "textCpeModelEnableShow": "Enable Show CPE Model",
+        "textCpeModelEnableAdd": "Enable Add CPE Model",
+        "textCpeModelEnableUpdate": "Enable Update CPE Model",
+        "textCpeModelEnableDelete": "Enable Delete CPE Model",
+        
+        "textExtensorType": "Extensor Type",
+        "textExtensorTypeEnableShow": "Enable Show Extensor Type",
+        "textExtensorTypeEnableAdd": "Enable Add Extensor Type",
+        "textExtensorTypeEnableUpdate": "Enable Update Extensor Type",
+        "textExtensorTypeEnableDelete": "Enable Delete Extensor Type",
+        
+        "textExtensorModel": "Extensor Model",
+        "textExtensorModelEnableShow": "Enable Show Extensor Model",
+        "textExtensorModelEnableAdd": "Enable Add Extensor Model",
+        "textExtensorModelEnableUpdate": "Enable Update Extensor Model",
+        "textExtensorModelEnableDelete": "Enable Delete Extensor Model",
+        
+        "textTestDevice": "Test Devices",
+        "textTestDeviceEnableShow": "Enable Show Test Devices",
+        "textTestDeviceEnableUpdate": "Enable Update Test Devices" 
+    }]
+}
+
+
+
+
+
+

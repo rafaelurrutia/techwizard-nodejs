@@ -1,0 +1,118 @@
+.report_content {
+	overflow: hidden;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.dashboard_widget {
+	min-width: 205px;
+	max-width: 300px;
+	width: 24%;
+	height: 240px;		/* antes 220 */
+	background-color: #FFFFFF;
+	margin: 4px;
+	float: left;
+	text-align: center;
+	position: relative;
+	display: none;
+}
+.dashboard_widget_middle {
+	min-width: 205px;
+	max-width: 300px;
+	width: 24%;
+	height: 115px;
+	background-color: #ffffff;
+	margin: 4px;
+	display: none;
+	float: left;
+}
+.dashboard_widget_large {
+	min-width: 600px;
+	width: 98%;
+	margin: 4px;
+	display: none;
+}
+.report_container {
+	height: 100%;
+}
+.dashboard_widget_head {
+	color: #ccc;
+	margin-bottom: 1em;
+	min-height: 40px;
+}
+.dashboard_widget_content {
+
+}
+.dashboard_widget_footer {
+	width: 100%;
+	font-size: 25px;
+	font-size: 2.4 vw;
+	color: #ccc;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+}
+.dashboard_widget_option {
+	text-align: right;
+	background-color: #CCC;
+}
+.text_month {
+	font-size: 25px;
+	font-weight: 700 !important;
+	line-height: 25px;
+}
+.text_number {
+	font-size: 50px;
+	color: #ccc;
+	font-weight: 700 !important;
+	line-height: 55px;
+}
+.text_hour {
+	font-size: 36px;
+	color: #ccc;
+	line-height: 25px;
+}
+.text_indicator {
+	font-size: 32px;
+}
+
+.dashboard_widget_large table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+
+.dashboard_widget_large th {
+	background-color: #3D3D3D;
+	color: #ffffff;
+}
+.dashboard_widget_large td {
+	color: #3D3D3D;
+}
+.dashboard_widget_large tr {
+	text-align: center;
+}
+.dashboard_widget_option span:hover {
+	cursor: pointer;
+	cursor: hand;
+}
+.dashboard_widget_option span {
+	font-weight: 700 !important;
+	margin-right: 11px;
+}
+
+@media (min-width: 640px) {
+	#text {
+		font-size: 1rem;
+	}
+}
+@media (min-width: 960px) {
+	#text {
+		font-size: 1.2 rem;
+	}
+}
+@media (min-width: 1100px) {
+	#text {
+		font-size: 1.5 rem;
+	}
+}

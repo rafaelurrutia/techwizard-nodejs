@@ -1,0 +1,93 @@
+{
+    "title":[{
+        "title": "TechWizard"
+    }],
+    
+    "head":[{
+        "title": "Tipos CPE",
+        "icon": "icon-clipboard-2"
+    }],
+    
+    "listButton":[
+        {
+            "icon": "icon-remove",
+            "hint": "Eliminar tipo(s) CPE seleccionado(s)."
+        },
+        {
+            "icon": "icon-loading",
+            "hint": "Recargar tabla tipo CPE."
+        },
+        {
+            "icon": "icon-plus-2",
+            "hint": "Agregar nuevo tipo CPE."
+        },
+        {
+            "icon": "icon-file-excel",
+            "hint": "Generar archivo excel."
+        },
+        {
+            "icon": "icon-file-pdf",
+            "hint": "Generar archivo pdf."
+        }
+    ],
+    
+    "table":[
+        {
+            "top":[
+                {
+                    "show":"Mostrar",
+                    "icon":""
+                },
+                {
+                    "filter":"Buscar",
+                    "icon":"icon-search"
+                }   
+            ] 
+        },
+        {
+            "content":[
+                {
+                    "head":[
+                        {"column":"Nombre"},
+                        {"column":"Upload"},
+                        {"column":"Download"},
+                        {"column":"Opciones"}
+                    ]
+                }
+            ] 
+        },
+        {
+            "foot":"hola" 
+        }
+    ],
+    
+    "content":[{
+        "title": "Tipos CPE"
+    }],
+    "modalAddCpeType":[{
+        "title": " Agregar tipo CPE",
+        "icon": "icon-clipboard-2",
+        "buttonAdd":"Agregar",
+        "buttonClean":"Limpiar",
+        "buttonClose":"Cerrar",
+        "messageRequired":"Todos los elementos con * son requeridos"
+    }],
+    "modalUpdateCpeType":[{
+        "title": " Modificar Tipo CPE",
+        "icon": "icon-clipboard-2",
+        "buttonUpdate":"Grabar",
+        "buttonClean":"Limpiar",
+        "buttonClose":"Cerrar",
+        "messageRequired":"Todos los elementos con * son requeridos"
+    }],
+    "modalDeleteCpeType":[{
+        "title": " Eliminar tipo CPE",
+        "icon": "icon-clipboard-2",
+        "buttonDelete":"Eliminar",
+        "buttonClose":"Cerrar",
+        "messageConfirm":"¿Desea eliminar los siguientes Habitacion(es)?"
+    }]
+}
+
+
+

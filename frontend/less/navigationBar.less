@@ -1,0 +1,24 @@
+/*
+-linea del archivo modificada
+4326
+
+
+*/
+
+@import "variables.less";
+
+.metro .navigation-bar.dark {
+    background-color: @navigationBar-backgroundColor;
+}
+.metro .navigation-bar.dark .navigation-bar-content .element:hover{
+    background-color: @navigationBar-hoverColor;
+}
+.metro .navigation-bar.dark .navigation-bar-content .element:active{
+    background-color: @navigationBar-activeColor;
+}
+.metro .navigation-bar.dark .border-bottom{
+    border-width:4px 0px 0px 0px;
+    border-image: url(../img/MenuBarra.jpg) 36 stretch;   
+    -webkit-border-image:url(../img/MenuBarra.jpg) 36 stretch; /* Safari */
+    -o-border-image:url(../img/MenuBarra.jpg) 36 stretch; /* Opera */
+}

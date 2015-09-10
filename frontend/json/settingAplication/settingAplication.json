@@ -1,0 +1,30 @@
+{
+	"code": "200",
+	"status": "true",
+	"data": [
+		{
+			"_id": "53f3992284a02a2b52c6a442",
+			"url_down": "www.google.com",
+			"time_out_down": 20,
+			"url_ping": "www.hotmail.com",
+			"num_ping": 20,
+			"vumeter": 40,
+			"Pruebas_ST": [
+				{
+					"internacional": {
+						"valor_aceprado": 50
+					},
+					"nacional": {
+						"valor_aceptado": 20
+					}
+				}
+			]
+		}
+	]
+}
+
+
+
+
+
+

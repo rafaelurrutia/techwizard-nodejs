@@ -1,0 +1,184 @@
+{
+	"title": [
+		{
+			"title": "TechWizard"
+		}
+	],
+	"head": [
+		{
+			"title": "Detail Certificates",
+			"icon": "icon-copy"
+		}
+	],
+	"listButton": [
+		{
+			"icon": "icon-arrow-right-4",
+			"hint": "Perform advanced search filter.",
+			"text": "Filter"
+		}, {
+			"icon": "icon-loading",
+			"hint": "Reload certificates list.",
+			"text": "Refresh"
+		}, {
+			"icon": "icon-file-excel",
+			"hint": "Make excel file.",
+			"text": "Export"
+		}, {
+			"icon": "icon-file-pdf",
+			"hint": "Make pdf file."
+		}, {
+			"icon": "icon-file-excel",
+			"hint": "Make excel file, you can only create this file with a maximum of 150 certificates.",
+			"text": "Full export"
+		}
+	],
+	"table": [
+		{
+			"filterOption": [
+				{
+					"text": "Client ID"
+				}, {
+					"text": "Technician ID"
+				}, {
+					"text": "Certificate state"
+				}, {
+					"text": "Start date"
+				}, {
+					"text": "End date"
+				}
+			]
+		}
+	],
+	"content": [
+		{
+			"title": "Grupos"
+		}
+	],
+	"modalDetailCertificate": [
+		{
+			"titleHead": "Certificate",
+			"title1": "Certificate",
+			"title2": "Wi-Fi test",
+			"title3": "Wi-Fi extender test",
+			"titleWiredTest": "Wired Test",
+			"visitType": "Visit type",
+			"broadcastDate": "Creation date",
+			"idTechnical": "Technician Id",
+			"emailClient": "Client e-mail",
+			"servicePlan": "Package",
+			"cpeType": "CPE type",
+			"cpeModel": "CPE model",
+			"cpeMac": "CPE MAC",
+			"housingType": "Home type",
+			"cpeLocation": "CPE location",
+			"acceptProposalLocation": "Location acceptance",
+			"observation": "Observation",
+			"wifiOwn": "Customer Wi-Fi",
+			"certificateState": "Certificate state",
+			"dateActive": "Activation date",
+			"receptorName": "Receptor name",
+			"relationship": "Relationship",
+			"floor": "Floor",
+			"technicalOrder": "Technical order",
+			"tbodyLocation": "Location",
+			"tbodyNacUp": "Nat. up.",
+			"tbodyNacDown": "Nat. down.",
+			"tbodyIntUp": "Int. up.",
+			"tbodyIntDown": "Int. down.",
+			"tbodySignal": "Signal",
+			"tbodyType": "Type",
+			"tbodyModel": "Model",
+			"tbodyMac": "Wi-Fi extender",
+			"tbodyAcceptLocation": "Loc. acceptance",
+			"tbodyStatus": "Status",
+			"frequency": "Frequency",
+			"emptyWifiCertificateMessage": "No certificate Wi-Fi",
+			"emptyExtensorCertificateMessage": "Currently no extender is specified for this certificate",
+			"buttonClose": "Close",
+			"idClient": "Client Id",
+			"buttonReportDetails":"Details report"
+		}
+	],
+	"modalDetailCertificateExtensor": [
+		{
+			"titleHead": "Certificate",
+			"title1": "Extender",
+			"title2": "Wi-Fi certificate",
+			"cpeType": "CPE type",
+			"cpeModel": "CPE model",
+			"cpeMac": "CPE MAC",
+			"cpeLocation": "CPE location",
+			"acceptProposalLocation": "Location acceptance",
+			"observation": "Observation",
+			"tbodyLocation": "Location",
+			"tbodyNacUp": "Nat. Up.",
+			"tbodyNacDown": "Nat. Down.",
+			"tbodyIntUp": "Int. Up.",
+			"tbodyIntDown": "Int. Down.",
+			"tbodySignal": "Signal",
+			"frequency": "Frequency",
+			"emptyWifiCertificateMessage": "No certificate Wi-Fi",
+			"buttonBack": "Back",
+			"buttonClose": "Close"
+		}
+	],
+	"modalDetailCertificateTest": [
+		{
+			"title": "Test certificate details",
+			"titleTestDownload":"Download test",
+			"titleTestPing":"Ping test",
+			"titleTestSniffer":"Sniffer",
+			"titleTestSpeedtest":"Speed test",
+			"titleTestNetworksAvailable":"Wi-Fi networks",
+			"titleTestInformationTest":"Use Wi-Fi connection",
+			
+			"subtitleTestDownloadSpe": "SPE",
+			"subtitleTestDownloadAvg": "AVG",
+			"subtitleTestDownloadTim": "TIM",
+			"subtitleTestDownloadSiz": "SIZ",
+			"subtitleTestDownloadTlo": "TLO",
+			"subtitleTestDownloadTco": "TCO",
+			"subtitleTestDownloadTpr": "TPR",
+			"subtitleTestDownloadTst": "TST",
+			"subtitleTestDownloadUrl": "URL",
+			
+			"subtitleTestPingSend": "Send",
+			"subtitleTestPingReceived": "Received",
+			"subtitleTestPingLost": "Lost",
+			"subtitleTestPingAverage": "Average",
+			"subtitleTestPingMinimo": "Minimun",
+			"subtitleTestPingMaximo": "Maximun",
+			"subtitleTestPingJitter": "Jitter",
+			"subtitleTestPingUrl": "URL",
+			
+			"subtitleTestSniffer": "Device",
+			"subtitleTestSnifferMessage1": "From a total: ",
+			"subtitleTestSnifferMessage2": "devices.",
+	
+			"subtitleTestNetworksAvailable":"SSID",
+			"subtitleTestNetworksAvailableMessage":"Wi-Fi network available.",	
+			
+			"subtitleTestInformationTestSecurity":"Security",
+			"subtitleTestInformationTestChannel":"Channel",
+			"subtitleTestInformationTestOrigin":"Device origin", 
+			
+			"titleDescription":"Description"
+			
+		}
+	],
+	
+	"generalListCertificateStateCertificate": [
+		{
+			"stateCertificateText1": "All",
+			
+			"stateCertificateText2": "Active",
+			"stateCertificateText3": "Closed",
+			"stateCertificateText4": "Created",
+			"stateCertificateText5": "Ready",
+			"stateCertificateText6": "Pending",
+			"stateCertificateText7": "Signal screenshot",
+			"stateCertificateText8": "Clear start date",
+			"stateCertificateText9": "Clear end date"
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+    "data":[
+        {
+            "_id":"53aaedabae663c6972d2ab34",
+            "codigoplan":"003",
+            "name":"brasil",
+            "upload":4000,
+            "download":4000,
+            "unidad":"kbps"
+        },
+        {
+            "_id":"53aaf98eae663c6572d2ab34",
+            "codigoplan":"002",
+            "name":"MEGA10",
+            "upload":8000,
+            "download":8000,
+            "unidad":"kbps"
+        },
+        {
+            "_id":"53aaf9b0ae663c6a72d2ab34",
+            "codigoplan":"001",
+            "name":"MEGA20",
+            "upload":20000,
+            "download":20000,
+            "unidad":"kbps"
+        }
+        ]
+}

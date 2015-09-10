@@ -1,0 +1,240 @@
+{
+    "title":[{
+        "title": "TechWizard"
+    }],
+    
+    "head":[{
+        "title": "Test devices and system",
+        "iconLaptop": "icon-laptop",
+        "iconPhone": "icon-phone-2",
+        "iconTablet": "icon-tablet",
+        "description": "A continuación ingrese los datos requeridos para el funcionamiento tanto para TechWizard windows como para las aplicaciones móviles (android, Ios).",
+        "enableSpeedtestText": "Do you want to enable wired speed test?",
+        "enableSpeedtestTextOption1":"Yes",
+        "enableSpeedtestTextOption2":"No"
+    }],
+    
+    "listButton":[
+        {
+            "applyChange": "Apply Changes",
+            "name":"settingAplicationFormButtonApplyChange"
+        },
+        {
+            "clean": "Clear",
+            "name":"settingAplicationFormButton_Clean"
+        },
+        {
+            "restore": "Restore",
+            "name":"settingAplicationFormButton_Restore"
+        }
+    ],
+    
+    "form":[
+        {
+			"name": "urlDownload",
+	        "htmlLabel":"Download URL:",
+	        "htmlPlaceholder":"Download URL",
+	        "htmlErrorPlaceholder":"",
+	        "htmlFormElementName": "settingAplicationInputUrlDownload"
+        },
+        {
+			"name": "timeoutDownload",
+	        "htmlLabel":"Download timeout:",
+	        "htmlValue":"1",
+	        "htmlPlaceholder":"Sec",
+	        "htmlErrorPlaceholder":"",
+	        "htmlFormElementName": "settingAplicationInputTimeoutDownload"
+        },
+        {
+			"name": "sessionsDownload",
+	        "htmlLabel":"Download sessions:",
+	        "htmlValue":"15",
+	        "htmlPlaceholder":"Times",
+	        "htmlErrorPlaceholder":"",
+	        "htmlFormElementName": "settingAplicationInputSessionsDownload"
+        },
+        {
+			"name": "acceptTestDownload",
+	        "htmlLabel":"% Accept test:",
+	        "htmlValue":"",
+	        "htmlPlaceholder":"%",
+	        "htmlErrorPlaceholder":"",
+	        "htmlFormElementName": "settingAplicationInputSessionsDownload"
+        },
+        {
+			"name": "urlUpload",
+	        "htmlLabel":"Upload URL:",
+	        "htmlPlaceholder":"Upload URL",
+	        "htmlErrorPlaceholder":"",
+	        "htmlFormElementName": "settingAplicationInputUrlUpload"
+        },
+        {
+			"name": "timeoutUpload",
+	        "htmlLabel":"Upload timeout:",
+	        "htmlValue":"1",
+	        "htmlPlaceholder":"Sec",
+	        "htmlErrorPlaceholder":"",
+	        "htmlFormElementName": "settingAplicationInputTimeoutUpload"
+        },
+        {
+			"name": "sessionsUpload",
+	        "htmlLabel":"Upload sessions:",
+	        "htmlValue":"15",
+	        "htmlPlaceholder":"Times",
+	        "htmlErrorPlaceholder":"",
+	        "htmlFormElementName": "settingAplicationInputSessionsUpload"
+        },
+        {
+			"name": "acceptTestUpload",
+	        "htmlLabel":"% Accept Test:",
+	        "htmlValue":"",
+	        "htmlPlaceholder":"%",
+	        "htmlErrorPlaceholder":"",
+	        "htmlFormElementName": "settingAplicationInputSessionsDownload"
+        },
+        {
+			"name": "urlPing",
+	        "htmlLabel":"Ping URL:",
+	        "htmlPlaceholder":"Ping URL",
+	        "htmlErrorPlaceholder":"",
+	        "htmlFormElementName": "settingAplicationInputUrlPing"
+        },
+        {
+			"name": "countPings",
+	        "htmlLabel":"Pings count:",
+	        "htmlPlaceholder":"Times",
+	        "htmlErrorPlaceholder":"",
+	        "htmlFormElementName": "settingAplicationInputCountPings"
+        },
+        {
+			"name": "urlDns",
+	        "htmlLabel":"DNS URL:",
+	        "htmlPlaceholder":"DNS URL",
+	        "htmlErrorPlaceholder":"",
+	        "htmlFormElementName": "settingAplicationInputUrlDns"
+        },
+        {
+			"name": "urlTraceroute",
+	        "htmlLabel":"Traceroute URL:",
+	        "htmlPlaceholder":"Traceroute URL",
+	        "htmlErrorPlaceholder":"",
+	        "htmlFormElementName": "settingAplicationInputUrlTraceroute"
+        },
+        {
+			"name": "hopsTraceroute",
+	        "htmlLabel":"Hops:",
+	        "htmlValue":"30",
+	        "htmlPlaceholder":"Times",
+	        "htmlErrorPlaceholder":"",
+	        "htmlFormElementName": "settingAplicationInputDnsHops"
+        },
+        {
+			"name": "urlSpeedtest",
+	        "htmlLabel":"Speed test URL:",
+	        "htmlPlaceholder":"Speedtest URL",
+	        "htmlErrorPlaceholder":"",
+	        "htmlFormElementName": "settingAplicationInputUrlSpeedtest"
+        },
+        {
+			"name": "speedtestSize",
+	        "htmlLabel":"% Flash ookla size:",
+	        "htmlValue":"100",
+	        "htmlPlaceholder":"%",
+	        "htmlErrorPlaceholder":"",
+	        "htmlFormElementName": "settingAplicationInputSpeedtestSize"
+        },
+        {
+			"name": "speedtestPosition",
+	        "htmlLabel":"Position flash x ookla:",
+	        "htmlValue":"0",
+	        "htmlPlaceholder":"x",
+	        "htmlErrorPlaceholder":"",
+	        "htmlFormElementName": "settingAplicationInputSpeedtestPosition"
+        },
+        {
+			"name": "radioTest",
+	        "htmlLabel":"% Accept threshold test:",
+	        "htmlPlaceholder":"",
+	        "htmlErrorPlaceholder":"",
+	        "htmlFormElementName": "settingAplicationInputRadioTest"
+        },
+        {
+			"name": "radioTest",
+	        "htmlLabel":"% Accept international test:",
+	        "htmlPlaceholder":"",
+	        "htmlErrorPlaceholder":"",
+	        "htmlFormElementName": "settingAplicationInputRadioTest"
+        },
+        {
+			"name": "vuMeter",
+	        "htmlLabel":"VU meter:",
+	        "htmlPlaceholder":"%",
+	        "htmlErrorPlaceholder":"",
+	        "htmlFormElementName": "settingAplicationInputVuMeter"
+        },
+        {
+			"name": "speedtestPosition",
+	        "htmlLabel":"Position y flash ookla:",
+	        "htmlValue":"0",
+	        "htmlPlaceholder":"y",
+	        "htmlErrorPlaceholder":"",
+	        "htmlFormElementName": "settingAplicationInputSpeedtestPosition"
+        },
+        {
+			"name": "minRoomsCertificate",
+	        "htmlLabel":"Min. rooms to certificate:",
+	        "htmlValue":"2",
+	        "htmlPlaceholder":"Size",
+	        "htmlErrorPlaceholder":"",
+	        "htmlFormElementName": "settingAplicationInputSpeedtestPosition"
+        },
+        {
+			"name": "maxRoomsCertificate",
+	        "htmlLabel":"Max. rooms to certificate:",
+	        "htmlValue":"10",
+	        "htmlPlaceholder":"Size",
+	        "htmlErrorPlaceholder":"",
+	        "htmlFormElementName": "settingAplicationInputSpeedtestPosition"
+        },
+        {	
+	        "htmlLabel":"Force make certifications if have both signals frequencies?:",
+	        "radioButtonTextOption1":"Yes",
+	        "radioButtonValueOption1":"true",
+	        "radioButtonTextOption2":"No",
+	        "radioButtonValueOption2":"false"
+        },
+		{	
+	        "htmlLabel":"Format date:",
+	        "radioButtonTextOption1":"dd/mm/yyyy",
+	        "radioButtonValueOption1":"dd/mm/yyyy",
+	        "radioButtonTextOption2":"mm/dd/yyyy",
+	        "radioButtonValueOption2":"mm/dd/yyyy"
+        },
+        {	
+	        "htmlLabel":"Format numeric:",
+	        "radioButtonTextOption1":"0,000",
+	        "radioButtonValueOption1":"0,000",
+	        "htmlHint1":"Add , (comma) character as a thousands separator.<br> e.g. 1,234",
+	        "radioButtonTextOption2":"0.000",
+	        "radioButtonValueOption2":"0.000",
+	        "htmlHint2":"Add . (dot) character as a thousands separator.<br> e.g. 1.234",
+	        "radioButtonTextOption3":"0,000.00",
+	        "radioButtonValueOption3":"0,000.00",
+	        "htmlHint3":"Add , (comma) character as a thousands separator and a . (dot) character as a decimal.<br> e.g. 1,234.56"
+        }
+        
+    ],
+    
+    "content":[{
+        "text1": "Sec.",
+        "text2": "Times",
+        "text3": "National",
+        "text4": "International",
+        "text5": "All",
+        "text6": "Accept test",
+        "text7": "Rooms"
+    }]
+}
+
+
+

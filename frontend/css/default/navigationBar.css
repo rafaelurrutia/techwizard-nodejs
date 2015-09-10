@@ -1,0 +1,30 @@
+.metro .navigation-bar.dark {
+	background-color: #333
+}
+.metro .navigation-bar.dark .navigation-bar-content .element:hover {
+	background-color: #201a1a
+}
+.metro .navigation-bar.dark .navigation-bar-content .element:active {
+	background-color: #9a1616
+}
+.metro .navigation-bar.dark .border-bottom {
+/*
+	border-width: 4px 0 0;
+	border-image: url(../img/MenuBarra.jpg) 36 stretch;
+	-webkit-border-image: url(../img/MenuBarra.jpg) 36 stretch;
+	-o-border-image: url(../img/MenuBarra.jpg) 36 stretch;
+*/	
+	
+    border-width:3px 0 0 0;
+   	border: 3px solid transparent;
+   	border-image-width:3px 0 0 0;
+	-moz-border-image: url(../img/MenuBarra.jpg) 36 stretch;
+   	-webkit-border-image: url(../img/MenuBarra.jpg) 36 stretch;
+   	-o-border-image: url(../img/MenuBarra.jpg) 36 stretch;
+   	border-image: url(../img/MenuBarra.jpg) 36 stretch;
+   		
+}
+
+.metro .navigation-bar.dark .active {
+	background-color: #9a1616;
+}

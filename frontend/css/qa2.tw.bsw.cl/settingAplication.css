@@ -1,0 +1,78 @@
+div[class=table_body] > div[class=table_head] > button {
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px
+}
+.bottom {
+	background-color: #FFF;
+	height: 50px;
+	margin: 5px
+}
+.row_selected {
+	background-color: #9FAFD1 !important
+}
+.messageErrorAccess {
+	font-size: 12px;
+	color: red
+}
+.countdown {
+	font-size: 12px
+}
+.inputHover {
+	background-color: #FAFFBD;
+	border-color: #EDDB5C
+}
+.inputLeave {
+	background-color: #FFF;
+	border-color: #D9D9D9
+}
+.radiobuttonSet > button {
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px
+}
+.radiobuttonButtonSelect {
+	background-color: #4390df !important;
+	color: #FFF !important
+}
+.radiobuttonButton {
+	background-color: #3d3d3d !important;
+	color: #FFF !important
+}
+#main_Title {
+	margin: 5px 0
+}
+#main_HeadMessage {
+	margin: 5px 0;
+	display: none
+}
+#main_AlertMessage {
+	margin: 5px 0;
+	color: red;
+	font-size: 12px;
+	font-size: 1.8 vmin
+}
+#main_ValidationMessage {
+	margin: 5px 0;
+	color: red;
+	font-size: 12px;
+	font-size: 1.5 vmin
+}
+#main_FormContent {
+	margin: 5px 0;
+	width: 600px;
+	float: left;
+	margin-bottom: 5px
+}
+#main_ButtonsSet {
+	margin: 5px 0;
+	clear: both;
+	float: left
+}
+#main_ButtonsSet button {
+	background-color: #4390df;
+	color: #FFF
+}
+#main_FootMessage {
+	margin: 5px 0
+}

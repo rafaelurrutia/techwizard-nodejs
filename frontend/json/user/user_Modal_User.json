@@ -1,0 +1,398 @@
+{
+    "elements":[{
+        "name": "userGroup",
+        "htmlLabel":"* Group:",
+        "htmlPlaceholder":"Select group",
+        "htmlErrorPlaceholder":"Grupo Requerido",
+        "htmlFormElementName": "modalUserSelectGroupUser",
+        "htmlFormElementType": "select",
+        "htmlAutocomplete": "off",
+        "htmlAutofocus": "",
+        "dataRequired": "yes",
+        "dataTypeElementRequired": "",
+        "dataRange": "",
+        "dataOrder": 1,
+        "elementDialogBoxTitle": "",
+        "elementDialogBoxMessage": "",
+        "elementDialogBoxExample": "",
+         "elementError":
+         [
+          {
+           "errorTitle":"Error Grupo, ",
+           "errorMessage":"Debe seleccionar Grupo.",
+           "errorExample":""
+          },
+          {
+           "errorTitle":"",
+           "errorMessage":"",
+           "errorExample":""   
+          },
+          {
+           "errorTitle":"",
+           "errorMessage":"",
+           "errorExample":""   
+          }
+         ]
+    },
+    {
+        "name": "userUsername",
+        "htmlLabel":"* Username:",
+        "htmlPlaceholder":"Username",
+        "htmlErrorPlaceholder":"Nombre Usuario Requerido",
+        "htmlFormElementName": "modalUserInputUsernameUser",
+        "htmlFormElementType": "text",
+        "htmlAutocomplete": "off",
+        "htmlAutofocus": "",
+        "dataRequired": "yes",
+        "dataTypeElementRequired": "tn- ",
+        "dataRange": "6-10",
+        "dataOrder": 2,
+        "elementDialogBoxTitle": "",
+        "elementDialogBoxMessage": "",
+        "elementDialogBoxExample": "",
+         "elementError":
+         [
+          {
+           "errorTitle":"Error Nombre Usuario, ",
+           "errorMessage":"el texto es requerido.",
+           "errorExample":""
+          },
+          {
+           "errorTitle":"Error Nombre Usuario, ",
+           "errorMessage":"solo puedes ingresar letras y/o números entre un rango de 6 a 10 caracteres.",
+           "errorExample":""   
+          },
+          {
+           "errorTitle":"",
+           "errorMessage":"",
+           "errorExample":""   
+          }
+         ]
+    },
+    {
+        "name": "userName",
+        "htmlLabel":"* First name:",
+        "htmlPlaceholder":"First name",
+        "htmlErrorPlaceholder":"Nombre Requerido",
+        "htmlFormElementName": "modalUserInputNameUser",
+        "htmlFormElementType": "text",
+        "htmlAutocomplete": "off",
+        "htmlAutofocus": "",
+        "dataRequired": "yes",
+        "dataTypeElementRequired": "t- ",
+        "dataRange": "3-20",
+        "dataOrder": 3,
+        "elementDialogBoxTitle": "",
+        "elementDialogBoxMessage": "",
+        "elementDialogBoxExample": "",
+         "elementError":
+         [
+          {
+           "errorTitle":"Error Nombre, ",
+           "errorMessage":"el texto es requerido.",
+           "errorExample":""
+          },
+          {
+           "errorTitle":"Error Nombre Usuario, ",
+           "errorMessage":"solo puedes ingresar letras y/o números entre un rango de 3 a 20 caracteres.",
+           "errorExample":""   
+          },
+          {
+           "errorTitle":"",
+           "errorMessage":"",
+           "errorExample":""   
+          }
+         ]
+    },
+    {
+        "name": "userLastName",
+        "htmlLabel":"* Last name:",
+        "htmlPlaceholder":"Last name",
+        "htmlErrorPlaceholder":"Apellido Requerido",
+        "htmlFormElementName": "modalUserInputLastNameUser",
+        "htmlFormElementType": "text",
+        "htmlAutocomplete": "off",
+        "htmlAutofocus": "",
+        "dataRequired": "yes",
+        "dataTypeElementRequired": "t- ",
+        "dataRange": "3-20",
+        "dataOrder": 4,
+        "elementDialogBoxTitle": "",
+        "elementDialogBoxMessage": "",
+        "elementDialogBoxExample": "",
+         "elementError":
+         [
+          {
+           "errorTitle":"Error Apellido Usuario, ",
+           "errorMessage":"el texto es requerido.",
+           "errorExample":""
+          },
+          {
+           "errorTitle":"Error Apellido Usuario, ",
+           "errorMessage":"solo puedes ingresar letras y/o números entre un rango de 3 a 20 caracteres.",
+           "errorExample":""   
+          },
+          {
+           "errorTitle":"",
+           "errorMessage":"",
+           "errorExample":""   
+          }
+         ]
+    },
+    {
+        "name": "userPassword",
+        "htmlLabel":"* Password:",
+        "htmlPlaceholder":"Password",
+        "htmlErrorPlaceholder":"Contraseña Requerido",
+        "htmlFormElementName": "modalUserInputPasswordUser",
+        "htmlFormElementType": "password",
+        "htmlAutocomplete": "off",
+        "htmlAutofocus": "",
+        "dataRequired": "yes",
+        "dataTypeElementRequired": "tn- ",
+        "dataRange": "6-10",
+        "dataOrder": 5,
+        "elementDialogBoxTitle": "",
+        "elementDialogBoxMessage": "",
+        "elementDialogBoxExample": "",
+         "elementError":
+         [
+          {
+           "errorTitle":"Error Contraseña Usuario, ",
+           "errorMessage":"el texto es requerido.",
+           "errorExample":""
+          },
+          {
+           "errorTitle":"Error Contraseña Usuario, ",
+           "errorMessage":"solo puedes ingresar letras y/o números entre un rango de 6 a 10 caracteres.",
+           "errorExample":""   
+          },
+          {
+           "errorTitle":"",
+           "errorMessage":"",
+           "errorExample":""   
+          }
+         ]
+    },
+    {
+        "name": "userConfirmPassword",
+        "htmlLabel":"* Confirm password:",
+        "htmlPlaceholder":"Password",
+        "htmlErrorPlaceholder":"Contraseña Requerido",
+        "htmlFormElementName": "modalUserInputConfirmPasswordUser",
+        "htmlFormElementType": "password",
+        "htmlAutocomplete": "off",
+        "htmlAutofocus": "",
+        "dataRequired": "yes",
+        "dataTypeElementRequired": "tn- ",
+        "dataRange": "6-10",
+        "dataOrder": 5,
+        "elementDialogBoxTitle": "",
+        "elementDialogBoxMessage": "",
+        "elementDialogBoxExample": "",
+         "elementError":
+         [
+          {
+           "errorTitle":"Error Contraseña Usuario, ",
+           "errorMessage":"el texto es requerido.",
+           "errorExample":""
+          },
+          {
+           "errorTitle":"Error Contraseña Usuario, ",
+           "errorMessage":"solo puedes ingresar letras y/o números entre un rango de 6 a 10 caracteres.",
+           "errorExample":""   
+          },
+          {
+           "errorTitle":"",
+           "errorMessage":"",
+           "errorExample":""   
+          }
+         ]
+    },
+    {
+        "name": "userEmail",
+        "htmlLabel":"E-mail:",
+        "htmlPlaceholder":"E-mail",
+        "htmlErrorPlaceholder":"Email Usuario Requerido",
+        "htmlFormElementName": "modalUserInputEmailUser",
+        "htmlFormElementType": "text",
+        "htmlAutocomplete": "off",
+        "htmlAutofocus": "",
+        "dataRequired": "no",
+        "dataTypeElementRequired": "tn-@-_.",
+        "dataRange": "5-45",
+        "dataOrder": 6,
+        "elementDialogBoxTitle": "",
+        "elementDialogBoxMessage": "",
+        "elementDialogBoxExample": "",
+         "elementError":
+         [
+          {
+           "errorTitle":"Error Email Usuario, ",
+           "errorMessage":"el texto es requerido.",
+           "errorExample":""
+          },
+          {
+           "errorTitle":"Error E-mail Usuario, ",
+           "errorMessage":"solo puedes ingresar letras y/o números entre un rango de 5 a 30 caracteres.",
+           "errorExample":""   
+          },
+          {
+           "errorTitle":"",
+           "errorMessage":"",
+           "errorExample":""   
+          }
+         ]
+    },
+    {
+        "name": "userPhone",
+        "htmlLabel":"Phone:",
+        "htmlPlaceholder":"Phone",
+        "htmlErrorPlaceholder":"Teléfono Usuario Requerido",
+        "htmlFormElementName": "modalUserInputPhoneUser",
+        "htmlFormElementType": "text",
+        "htmlAutocomplete": "off",
+        "htmlAutofocus": "",
+        "dataRequired": "no",
+        "dataTypeElementRequired": "n--",
+        "dataRange": "3-20",
+        "dataOrder": 7,
+        "elementDialogBoxTitle": "",
+        "elementDialogBoxMessage": "",
+        "elementDialogBoxExample": "",
+         "elementError":
+         [
+          {
+           "errorTitle":"Error Teléfono Usuario, ",
+           "errorMessage":"el texto es requerido.",
+           "errorExample":""
+          },
+          {
+           "errorTitle":"Error Teléfono Usuario, ",
+           "errorMessage":"solo puedes ingresar letras y/o números entre un rango de 3 a 20 caracteres.",
+           "errorExample":""   
+          },
+          {
+           "errorTitle":"",
+           "errorMessage":"",
+           "errorExample":""   
+          }
+         ]
+    },
+    {
+        "name": "userActive",
+        "htmlLabel":"* Active user:",
+        "htmlPlaceholder":"",
+        "htmlErrorPlaceholder":"",
+        "htmlFormElementName": "modalGroupInputDefault",
+        "htmlFormElementType": "button",
+        "dataRequired": "yes",
+        "htmlFormElementTypeButtonActive":
+        [
+          {
+           "buttonElementName":"userModalUserButtonActive",
+           "buttonElementDefault":1,
+           "buttonText":"Yes",
+           "buttonValue":"true",
+           "buttonIcon":"icon-checkmark",
+           "buttonColor":"#60A917",
+           "buttonColorText":"#FFFFFF"
+          }
+         ],
+        "htmlFormElementTypeButtonInactive":
+        [
+          {
+           "buttonElementName":"userModalUserButtonInactive",
+           "buttonElementDefault":0,
+           "buttonText":"No",
+           "buttonValue":"false",
+           "buttonIcon":"icon-cancel-2",
+           "buttonColor":"red",
+           "buttonColorText":"#FFFFFF"      
+          }
+         ],
+        "dataTypeElementRequired": "",
+        "dataRange": "",
+        "dataOrder": 8,
+        "elementDialogBoxTitle": "",
+        "elementDialogBoxMessage": "",
+        "elementDialogBoxExample": "",
+        "elementError":
+         [
+          {
+           "errorTitle":"Error Nombre Grupo, ",
+           "errorMessage":"el texto es requerido.",
+           "errorExample":""
+          },
+          {
+           "errorTitle":"Error Nombre Grupo",
+           "errorMessage":"Solo puede ingresar letras, números y \"-\".<br>Debe ingresar entre un rango de 3 a 255 caracteres.",
+           "errorExample":""   
+          },
+          {
+           "errorTitle":"",
+           "errorMessage":"",
+           "errorExample":""   
+          }
+         ]
+    },
+    {
+        "name": "userExpire",
+        "htmlLabel":"* Expire user account:",
+        "htmlPlaceholder":"",
+        "htmlErrorPlaceholder":"",
+        "htmlFormElementName": "modalGroupInputExpire",
+        "htmlFormElementType": "button",
+        "dataRequired": "yes",
+        "htmlFormElementTypeButtonActive":
+        [
+          {
+           "buttonElementName":"userModalUserButtonEnable",
+           "buttonElementDefault":1,
+           "buttonText":"Yes",
+           "buttonValue":"true",
+           "buttonIcon":"icon-checkmark",
+           "buttonColor":"#60A917",
+           "buttonColorText":"#FFFFFF"
+          }
+         ],
+        "htmlFormElementTypeButtonInactive":
+        [
+          {
+           "buttonElementName":"userModalUserButtonDisable",
+           "buttonElementDefault":0,
+           "buttonText":"No",
+           "buttonValue":"false",
+           "buttonIcon":"icon-cancel-2",
+           "buttonColor":"red",
+           "buttonColorText":"#FFFFFF"      
+          }
+         ],
+        "dataTypeElementRequired": "",
+        "dataRange": "",
+        "dataOrder": 9,
+        "elementDialogBoxTitle": "",
+        "elementDialogBoxMessage": "",
+        "elementDialogBoxExample": "",
+        "elementError":
+         [
+          {
+           "errorTitle":"Error Nombre Grupo, ",
+           "errorMessage":"el texto es requerido.",
+           "errorExample":""
+          },
+          {
+           "errorTitle":"Error Nombre Grupo",
+           "errorMessage":"Solo puede ingresar letras, números y \"-\".<br>Debe ingresar entre un rango de 3 a 255 caracteres.",
+           "errorExample":""   
+          },
+          {
+           "errorTitle":"",
+           "errorMessage":"",
+           "errorExample":""   
+          }
+         ]
+    }
+
+    ]
+}

@@ -1,0 +1,17 @@
+{    
+    "content":[{
+        "text1": "Login",
+        "text2": "Insert username and password",
+        "text3": "All elements are required",
+        "text4": "Sign In",
+               
+        "text5": "Username",
+        "text6": "Password",
+        "text7": "Select Language",
+        "text8": "Español",
+        "text9": "English",
+        "text10": "Habitaciones",
+        "text11": "Português"
+        
+    }]
+}

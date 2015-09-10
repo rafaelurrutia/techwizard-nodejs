@@ -1,0 +1,190 @@
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
+#header {
+	padding:10px;
+	background:#5ee;
+}
+#content {
+	padding:10px;
+	padding-bottom:80px;   /* Height of the footer element */
+}
+#footer {
+	width:100%;
+	height:80px;
+	position:absolute;
+	bottom:0;
+	left:0;
+	background:#ee5;
+}
+
+/*
+APUNTES DE CSS
+ 
+.left { float:left }
+.right { float:right }
+.clear { clear:both }
+
+#header {
+	background:#ededed url('http://www.cssreset.com/site/wp-content/themes/cssreset/images/bg/bg-tile.jpg');
+	padding:10px;
+	-moz-box-shadow:    0px 1px 2px rgba(0,0,0,0.55);
+	-webkit-box-shadow: 0px 1px 2px rgba(0,0,0,0.55);
+	-khtml-box-shadow:  0px 1px 2px rgba(0,0,0,0.55);
+	box-shadow:         0px 1px 2px rgba(0,0,0,0.55);
+}
+#footer {
+	background:#ffab62;
+	border-top:1px solid #ff4b02;
+	color:#333;
+	text-shadow:1px 1px 0 rgba(255,255,255,0.6);
+}
+
+*/
+
+
+.loginmask {
+    position: fixed;
+    font-family: Arial, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.loginmask:target {
+    opacity:1;
+    pointer-events: auto;
+}
+.loginbox{
+    width: 400px;
+    position: relative;
+    padding: 5px 20px 13px 20px;
+
+    border-radius:18px;         /*  originalmente era 15px pero para que se vea el borde del footer se le aumento a 18px */
+    -webkit-transition: all 500ms ease-in;
+    -moz-transition: all 500ms ease-in;
+    transition: all 500ms ease-in;  
+
+
+    background: #FFFFFF; /* old browsers */
+    background: -moz-linear-gradient(top,  #FFFFFF,  #cccccc); /* firefox */
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#cccccc)) fixed; /* webkit */
+
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#CCCCCC',GradientType=0 ); /* ie */ 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.movedown {
+    margin: 0 auto;
+}
+.loginmask:target .movedown{       
+    margin:3% auto;
+}
+/* //////////////////////////////////////// */
+.htmlElement{
+    height: 69px;
+    width: 195px;
+    float: left;
+    margin: 0px 25px 0px 0px;
+}
+.loginBody{
+    margin-top: 40px;
+    
+}
+.loginHead{
+    clear: both;
+    margin-bottom: 3px;
+
+}
+.loginMessageError{
+    clear: both;
+    margin-bottom: 3px;    
+    font-size: 11px;
+    color: red;
+}
+.loginMain{
+    clear: both;
+    margin-bottom: 3px;
+    height: auto;
+}
+.loginMessageRequired{
+    clear: both;
+    margin-bottom: 3px;
+    font-size: 11px;
+}
+.loginFoot{
+    clear: both;
+    float: right;
+
+
+  
+}
+
+.loginFooter{
+    width:100%;
+    height:25px;
+    position:absolute;
+    bottom:0; /* al eliminar esta propiedad funciona en firefox pero igual aparecen los scrolls en ambos sentidos */
+    left:0;
+    
+    background-color: #fa6800;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Segoe UI Light_','Open Sans Light',Verdana,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+
+    border-width:5px 0px 0px 0px;
+    border-image: url(../img/MenuBarra.jpg) 36 stretch;
+
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+}
+
+.loginTop{
+    width:100%;
+    height:45px;
+    position:absolute;
+    top:0; /* al eliminar esta propiedad funciona en firefox pero igual aparecen los scrolls en ambos sentidos */
+    left:0;
+    
+    background-image:url(../img/MenuBarra.jpg);
+    background-color:#cccccc;
+
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+
+   /* background-color: #fa6800; */
+    color: #ffffff;
+    font-family: 'Segoe UI Light_','Open Sans Light',Verdana,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+
+    padding: 0px 15px;
+}
+
+.loginTop h2{
+    color: #ffffff !important;
+    font-weight:bold !important;
+}
+
+.loginTop h2 img{
+    margin-right:5px !important; 
+    margin-top:10px !important; 
+    float:right !important; 
+}

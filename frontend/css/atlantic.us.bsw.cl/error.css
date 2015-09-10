@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.error_container{
+
+    width: 400px;
+    min-width: 400px;
+    max-width: 400px;
+    
+    height: 215px;
+    min-height: 215px;
+    max-height: 215px;
+
+    background-color: #ffffff;
+
+
+    margin-left: auto;
+    margin-right: auto;
+
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    border: 1px solid #e5e5e5;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.error_container h2{
+    border: 0; 
+    border-bottom: 1px solid #e5e5e5; 
+    line-height: 30pt;
+}
+/*
+.error_leftSide{
+    padding-left: 30px;
+    padding-right: 0px;
+    width: 50%;
+    float: left;
+}
+.error_rightSide{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 50%;
+    float: right;
+}
+*/

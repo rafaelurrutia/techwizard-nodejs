@@ -1,0 +1,93 @@
+{
+    "title":[{
+        "title": "TechWizard"
+    }],
+    
+    "head":[{
+        "title": "Extender Types",
+        "icon": "icon-clipboard-2"
+    }],
+    
+    "listButton":[
+        {
+            "icon": "icon-remove",
+            "hint": "Eliminar tipo(s) extensor(es) seleccionado(s)."
+        },
+        {
+            "icon": "icon-loading",
+            "hint": "Reload extensor type table."
+        },
+        {
+            "icon": "icon-plus-2",
+            "hint": "Add new extensor type."
+        },
+        {
+            "icon": "icon-file-excel",
+            "hint": "Generar archivo excel."
+        },
+        {
+            "icon": "icon-file-pdf",
+            "hint": "Generar archivo pdf."
+        }
+    ],
+    
+    "table":[
+        {
+            "top":[
+                {
+                    "show":"Mostrar",
+                    "icon":""
+                },
+                {
+                    "filter":"Buscar",
+                    "icon":"icon-search"
+                }   
+            ] 
+        },
+        {
+            "content":[
+                {
+                    "head":[
+                        {"column":"Nombre"},
+                        {"column":"Upload"},
+                        {"column":"Download"},
+                        {"column":"Opciones"}
+                    ]
+                }
+            ] 
+        },
+        {
+            "foot":"hola" 
+        }
+    ],
+    
+    "content":[{
+        "title": "Extender Types"
+    }],
+    "modalAddExtensorType":[{
+        "title": " Add extender type",
+        "icon": "icon-clipboard-2",
+        "buttonAdd":"Add",
+        "buttonClean":"Clear",
+        "buttonClose":"Close",
+        "messageRequired":"All elements with * are required."
+    }],
+    "modalUpdateExtensorType":[{
+        "title": " Update extender type",
+        "icon": "icon-clipboard-2",
+        "buttonUpdate":"Update",
+        "buttonClean":"Clear",
+        "buttonClose":"Close",
+        "messageRequired":"All elements with * are required."
+    }],
+    "modalDeleteExtensorType":[{
+        "title": " Eliminar tipo extensor",
+        "icon": "icon-clipboard-2",
+        "buttonDelete":"Eliminar",
+        "buttonClose":"Cerrar",
+        "messageConfirm":"¿Desea eliminar los siguientes Tipos Extensor(es)?"
+    }]
+}
+
+
+

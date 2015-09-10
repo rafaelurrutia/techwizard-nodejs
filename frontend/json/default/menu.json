@@ -1,0 +1,20 @@
+{
+    "data":[{
+        "menuTitle":"Reports",
+        "menuHref":"../dashboard/",
+        "menuIcon":"icon-copy"
+    },
+    {
+        "menuTitle":"Management",
+        "menuHref":"../group/",
+        "menuIcon":"icon-user"
+    }
+    ],
+    "options":[{
+        "menuTextCloseSession":"Sign Out",
+        "menuTextWelcomeUser":"Welcome",
+        "menuTextOption":"Options",
+        "menuTextChangePassword":"Change Password"
+    }
+    ]
+}

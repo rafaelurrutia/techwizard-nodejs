@@ -1,0 +1,40 @@
+{
+    "elements":[{
+        "name": "roomName",
+        "htmlLabel":"* Nome quarto:",
+        "htmlPlaceholder":"Nome quarto",
+        "htmlErrorPlaceholder":"Nombre habitación requerido",
+        "htmlFormElementName": "modalRoomInputNameRoom",
+        "htmlFormElementType": "text",
+        "htmlAutocomplete": "off",
+        "htmlAutofocus": "",
+        "dataRequired": "yes",
+        "dataTypeElementRequired": "tn--",
+        "dataRange": "5-30",
+        "dataOrder": 1,
+        "elementDialogBoxTitle": "",
+        "elementDialogBoxMessage": "",
+        "elementDialogBoxExample": "",
+         "elementError":
+         [
+          {
+           "errorTitle":"Error nombre habitación, ",
+           "errorMessage":"el texto es requerido.",
+           "errorExample":""
+          },
+          {
+           "errorTitle":"Error nombre habitación, ",
+           "errorMessage":"solo puedes ingresar letras y números entre un rango de 5 a 255 caracteres.",
+           "errorExample":""   
+          },
+          {
+           "errorTitle":"",
+           "errorMessage":"",
+           "errorExample":""   
+          }
+         ]
+    }
+
+    ]
+}
+

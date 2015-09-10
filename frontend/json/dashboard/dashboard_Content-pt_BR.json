@@ -1,0 +1,117 @@
+{
+    "title":[{
+        "title": "TechWizard"
+    }],
+    
+    "head":[{
+        "title": "Dashboard",
+        "icon": "icon-dashboard"
+    }],
+    
+    "widgets":[
+        {
+            "titleText": "Número de certificados (ativos) para o ano.",
+            "titleMonthJan": "Jan",
+			"titleMonthFeb": "Fev",
+			"titleMonthMar": "Mar",
+			"titleMonthApr": "Abr",
+			"titleMonthMay": "Mai",
+			"titleMonthJun": "Jun",
+			"titleMonthJul": "Jul",
+			"titleMonthAug": "Ago",
+			"titleMonthSep": "Set",
+			"titleMonthOct": "Out",
+			"titleMonthNov": "Nov",
+			"titleMonthDec": "Dez"
+        },
+        {
+            "titleText": "Total de certificações ano",
+            "footerText": "Certificações",
+            "hintCertificatesClosedText": "Certificações ativas.",
+            "hintCertificatesSlopeText": "Certificações pendentes.",
+            "hintCertificatesActiveReadyCreatedText": "Certificações criados/lists/fechado."
+        },
+        {
+            "titleText": "Total de certificações no mês",
+            "footerText": "Certificações",
+            "hintCertificatesClosedText": "Certificações ativas.",
+            "hintCertificatesSlopeText": "Certificações pendentes.",
+            "hintCertificatesActiveReadyCreatedText": "Certificações criados/lists/fechado."
+        },
+        {
+            "titleText": "Total certifications in a week",
+            "middleText": "Week",
+            "footerText": "Certificações",
+            "hintCertificatesClosedText": "Active certifications.",
+            "hintCertificatesSlopeText": "Slope certifications.",
+            "hintCertificatesActiveReadyCreatedText": "Created/Ready/Closed certifications."
+        },
+        {
+            "titleText": "Total de certificações em um dia",
+            "middleText": "Dia",
+            "footerText": "Certificações",
+            "hintCertificatesClosedText": "Certificações ativas.",
+            "hintCertificatesSlopeText": "Certificações pendentes.",
+            "hintCertificatesActiveReadyCreatedText": "Certificações criados/lists/fechado."
+        },
+        {
+            "titleText": "Certificaciones creadas al mes",
+            "footerText": "Certificações"
+        },
+        {
+            "titleText": "Certificaciones creadas correspondientes a los últimos 7 dias",
+            "footerText": "Certificações"
+        },
+        {
+            "titleText": "Certificaciones creadas correspondientes a las últimas 24 horas",
+            "footerText": "Certificações",
+            "middleText": "Últimas 24 Horas",
+            "hintCertificatesText1": "Durante las últimas 24 horas se han realizado ",
+            "hintCertificatesText2": " certificaciones activas."
+        },
+        {
+            "titleText": "Certificaciones creadas correspondientes al mes",
+            "footerText": "Certificações",
+            "hintCertificatesText1": "De las ",
+            "hintCertificatesText2": " certificaciones activas, ",
+            "hintCertificatesText3": " de ellas provienen de departamentos.",
+            "hintCertificatesText4": " de ellas provienen de casas."
+        },
+        {
+            "titleText": "Certificaciones creadas correspondientes al mes",
+            "footerText": "Certificações",
+            "middleText1": "Con Extensores",
+            "middleText2": "Sin Extensores",
+            "hintCertificatesText1": "De las ",
+            "hintCertificatesText2": " certificaciones activas, ",
+            "hintCertificatesText3": " de ellas tienen extensores.",
+            "hintCertificatesText4": " de ellas no tienen extensores."
+        },
+        {
+            "titleText": "Certificaciones creadas correspondientes al mes",
+            "footerText": "Certificações",
+            "middleText1": "Alta",
+            "middleText2": "Soporte",
+            "hintCertificatesText1": "De las ",
+            "hintCertificatesText2": " certificaciones activas, ",
+            "hintCertificatesText3": " de ellas fueron por alta.",
+            "hintCertificatesText4": " de ellas fueron por soporte."
+        },
+        {
+            "titleText": "Certificaciones creadas correspondientes a la semana",
+            "middleText": "Semana",
+            "footerText": "Certificaciones",
+            "middleText1": "Alta",
+            "middleText2": "Soporte",
+            "hintCertificatesText1": "De las ",
+            "hintCertificatesText2": " certificaciones activas, ",
+            "hintCertificatesText3": " de ellas fueron por alta.",
+            "hintCertificatesText4": " de ellas fueron por soporte."
+        }
+        
+    ]
+    
+}
+
+
+

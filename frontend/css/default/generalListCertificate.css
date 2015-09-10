@@ -1,0 +1,38 @@
+div[id="filter"] input, select {
+	height: auto !important;
+	font-size: 11px;
+	padding: 5px;
+}
+div[class="table_body"] > div[class="table_head"] > button {
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+}
+.box {
+	box-shadow: 0 3px 6px rgba(0,0,0,0.3), inset 0 -3px 3px rgba(0,0,0,0.1);
+	border: solid #ccc 1px;
+}
+.bottom {
+	background-color: #FFF;
+	height: 50px;
+	margin: 5px;
+}
+.row_selected {
+	background-color: #9FAFD1 !important;
+}
+
+form > div.elements {
+	width: 140px;
+	height: 50px;
+	float: left;
+	margin: 5px;
+}
+form > div > input[type="text"] {
+	font-size: 11px;
+}
+form > div > label {
+	font-size: 11px;
+}
+table.tableModal tr:hover {
+	background: #FCF;
+}

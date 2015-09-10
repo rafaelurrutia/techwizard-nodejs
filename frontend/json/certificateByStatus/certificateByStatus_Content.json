@@ -1,0 +1,10 @@
+{
+	"table": [
+		{
+			"withExtensor": "With Extensors",
+			"withoutExtensor": "Without Extensors",
+			"quantity": "Quantity (Q)",
+			"percentage": "Percentage (%)"
+		}
+	]
+}

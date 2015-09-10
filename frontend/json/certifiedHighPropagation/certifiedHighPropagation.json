@@ -1,0 +1,18 @@
+{
+	"code": "200",
+	"status": "true",
+	"data": [
+		{
+			"_id": "53f3728f84a02a2b52c6a411",
+			"name": "Con extensores",
+			"y": "60",
+			"quantity": "120"
+		},
+		{
+			"_id": "53f521e9f50d82725000000c",
+			"name": "Sin extensores",
+			"y": "40",
+			"quantity": "80"
+		}
+	]
+}

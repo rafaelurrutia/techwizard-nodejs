@@ -1,0 +1,20 @@
+{
+    "data":[{
+        "menuTitle":"Relatórios",
+        "menuHref":"../dashboard/",
+        "menuIcon":"icon-copy"
+    },
+    {
+        "menuTitle":"Administração",
+        "menuHref":"../group/",
+        "menuIcon":"icon-user"
+    }
+    ],
+    "options":[{
+        "menuTextCloseSession":"Encerrar Sessão",
+        "menuTextWelcomeUser":"Bem-vindo",
+        "menuTextOption":"Opções",
+        "menuTextChangePassword":"Mudar Senha"
+    }
+    ]
+}

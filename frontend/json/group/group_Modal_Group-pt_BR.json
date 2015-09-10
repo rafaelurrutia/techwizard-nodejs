@@ -1,0 +1,189 @@
+{
+    "elements":[{
+        "name": "groupName",
+        "htmlLabel":"* Nome Grupo:",
+        "htmlPlaceholder":"Nome Grupo",
+        "htmlErrorPlaceholder":"Nombre Grupo Requerido",
+        "htmlFormElementName": "modalGroupInputNameGroup",
+        "htmlFormElementType": "text",
+        "htmlAutocomplete": "off",
+        "htmlAutofocus": "",
+        "dataRequired": "yes",
+        "dataTypeElementRequired": "t-@",
+        "dataRange": "5-30",
+        "dataOrder": 1,
+        "elementDialogBoxTitle": "",
+        "elementDialogBoxMessage": "",
+        "elementDialogBoxExample": "",
+         "elementError":
+         [
+          {
+           "errorTitle":"Error Nombre Grupo, ",
+           "errorMessage":"el texto es requerido.",
+           "errorExample":""
+          },
+          {
+           "errorTitle":"Error Nombre Grupo, ",
+           "errorMessage":"solo puedes ingresar letras, números y \"-\" entre un rango de 5 a 30 caracteres.",
+           "errorExample":""   
+          },
+          {
+           "errorTitle":"",
+           "errorMessage":"",
+           "errorExample":""   
+          }
+         ]
+    },
+    {
+        "name": "groupType",
+        "htmlLabel":"* Seleccione tipo id:",
+        "htmlPlaceholder":"seleccione tipo id",
+        "htmlErrorPlaceholder":"Tipo CPE Requerido",
+        "htmlFormElementName": "modalGroupSelectIdTypeGroup",
+        "htmlFormElementType": "select",
+        "htmlAutocomplete": "off",
+        "htmlAutofocus": "",
+        "dataRequired": "yes",
+        "dataTypeElementRequired": "",
+        "dataRange": "",
+        "dataOrder": 2,
+        "elementDialogBoxTitle": "",
+        "elementDialogBoxMessage": "",
+        "elementDialogBoxExample": "",
+         "elementError":
+         [
+          {
+           "errorTitle":"Error Tipo Id, ",
+           "errorMessage":"Debe seleccionar tipo Id.",
+           "errorExample":""
+          },
+          {
+           "errorTitle":"",
+           "errorMessage":"",
+           "errorExample":""   
+          },
+          {
+           "errorTitle":"",
+           "errorMessage":"",
+           "errorExample":""   
+          }
+         ]
+    },
+    {
+        "name": "groupActive",
+        "htmlLabel":"Ativo:",
+        "htmlPlaceholder":"",
+        "htmlErrorPlaceholder":"",
+        "htmlFormElementName": "modalGroupInputDefault",
+        "htmlFormElementType": "button",
+        "dataRequired": "no",
+        "htmlFormElementTypeButtonActive":
+        [
+          {
+           "buttonElementName":"groupModalGroupButtonActive",
+           "buttonElementDefault":1,
+           "buttonText":"Sim",
+           "buttonValue":"true",
+           "buttonIcon":"icon-checkmark",
+           "buttonColor":"#60A917",
+           "buttonColorText":"#FFFFFF"
+          }
+         ],
+        "htmlFormElementTypeButtonInactive":
+        [
+          {
+           "buttonElementName":"groupModalGroupButtonInactive",
+           "buttonElementDefault":0,
+           "buttonText":"Não",
+           "buttonValue":"false",
+           "buttonIcon":"icon-cancel-2",
+           "buttonColor":"red",
+           "buttonColorText":"#FFFFFF"      
+          }
+         ],
+        "dataTypeElementRequired": "",
+        "dataRange": "",
+        "dataOrder": 3,
+        "elementDialogBoxTitle": "",
+        "elementDialogBoxMessage": "",
+        "elementDialogBoxExample": "",
+        "elementError":
+         [
+          {
+           "errorTitle":"Error Nombre Grupo, ",
+           "errorMessage":"el texto es requerido.",
+           "errorExample":""
+          },
+          {
+           "errorTitle":"Error Nombre Grupo",
+           "errorMessage":"Solo puede ingresar letras, números y \"-\".<br>Debe ingresar entre un rango de 3 a 255 caracteres.",
+           "errorExample":""   
+          },
+          {
+           "errorTitle":"",
+           "errorMessage":"",
+           "errorExample":""   
+          }
+         ]
+    },
+    {
+        "name": "groupAccessAplication",
+        "htmlLabel":"Acesso aplicativo (Win, Android):",
+        "htmlPlaceholder":"",
+        "htmlErrorPlaceholder":"",
+        "htmlFormElementName": "modalGroupInputAccessAplication",
+        "htmlFormElementType": "button",
+        "dataRequired": "no",
+        "htmlFormElementTypeButtonActive":
+        [
+          {
+           "buttonElementName":"groupModalGroupButtonAccessAplicationEnable",
+           "buttonElementDefault":1,
+           "buttonText":"Sim",
+           "buttonValue":"true",
+           "buttonIcon":"icon-checkmark",
+           "buttonColor":"#60A917",
+           "buttonColorText":"#FFFFFF"
+          }
+         ],
+        "htmlFormElementTypeButtonInactive":
+        [
+          {
+           "buttonElementName":"groupModalGroupButtonAccessAplicationDisable",
+           "buttonElementDefault":0,
+           "buttonText":"Não",
+           "buttonValue":"false",
+           "buttonIcon":"icon-cancel-2",
+           "buttonColor":"red",
+           "buttonColorText":"#FFFFFF"      
+          }
+         ],
+        "dataTypeElementRequired": "",
+        "dataRange": "",
+        "dataOrder": 4,
+        "elementDialogBoxTitle": "",
+        "elementDialogBoxMessage": "",
+        "elementDialogBoxExample": "",
+        "elementError":
+         [
+          {
+           "errorTitle":"Error Nombre Grupo, ",
+           "errorMessage":"el texto es requerido.",
+           "errorExample":""
+          },
+          {
+           "errorTitle":"Error Nombre Grupo",
+           "errorMessage":"Solo puede ingresar letras, números y \"-\".<br>Debe ingresar entre un rango de 3 a 255 caracteres.",
+           "errorExample":""   
+          },
+          {
+           "errorTitle":"",
+           "errorMessage":"",
+           "errorExample":""   
+          }
+         ]
+    }
+
+    ]
+}
+

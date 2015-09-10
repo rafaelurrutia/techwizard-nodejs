@@ -1,0 +1,30 @@
+{
+	"code": "200",
+	"status": "true",
+	"data": [
+		{
+			"_id": "53f3728f84a02a2b52c6a411",
+			"name": "Cocina",
+			"y": 15,
+			"quantity": 120
+		},
+		{
+			"_id": "53f521e9f50d82725000000c",
+			"name": "Baño",
+			"y": 40,
+			"quantity": 80
+		},
+		{
+			"_id": "53f521e9f50d82725000000c",
+			"name": "Dormitorio1",
+			"y": 25,
+			"quantity": 80
+		},
+		{
+			"_id": "53f521e9f50d82725000000c",
+			"name": "Living",
+			"y": 20,
+			"quantity": 80
+		}
+	]
+}

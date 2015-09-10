@@ -1,0 +1,184 @@
+{
+	"title": [
+		{
+			"title": "TechWizard"
+		}
+	],
+	"head": [
+		{
+			"title": "Listado General Certificados",
+			"icon": "icon-copy"
+		}
+	],
+	"listButton": [
+		{
+			"icon": "icon-arrow-right-4",
+			"hint": "Realice un filtro de búsqueda avanzado.",
+			"text": "Filtro"
+		}, {
+			"icon": "icon-loading",
+			"hint": "Recargar listado certificados.",
+			"text": "Recargar"
+		}, {
+			"icon": "icon-file-excel",
+			"hint": "Exportar archivo Excel.",
+			"text": "Exportar"
+		}, {
+			"icon": "icon-file-pdf",
+			"hint": "Generar archivo Pdf."
+		}, {
+			"icon": "icon-file-excel",
+			"hint": "Generar archivo completo, solo podrá generar este archivo con un máximo de 150 certificados.",
+			"text": "Exportación completa"
+		}
+	],
+	"table": [
+		{
+			"filterOption": [
+				{
+					"text": "ID Cliente"
+				}, {
+					"text": "ID Técnico"
+				}, {
+					"text": "Estado Certificado"
+				}, {
+					"text": "Fecha Inicio"
+				}, {
+					"text": "Fecha Término"
+				}
+			]
+		}
+	],
+	"content": [
+		{
+			"title": "Grupos"
+		}
+	],
+	"modalDetailCertificate": [
+		{
+			"titleHead": "Certificado de Plan",
+			"title1": "Certificado de Plan",
+			"title2": "Certificado Wifi",
+			"title3": "Certificado Extensor",
+			"titleWiredTest": "Test Cableado",
+			"visitType": "Tipo Visita",
+			"broadcastDate": "Fecha Creación Cert.",
+			"idTechnical": "ID Técnico",
+			"emailClient": "E-mail Cliente",
+			"servicePlan": "Plan Contratado",
+			"cpeType": "Tipo CPE",
+			"cpeModel": "Modelo CPE",
+			"cpeMac": "Mac CPE",
+			"housingType": "Tipo Vivienda",
+			"cpeLocation": "Ubicación CPE",
+			"acceptProposalLocation": "Aceptar propuesta ubicación",
+			"observation": "Observación",
+			"wifiOwn": "Wifi propio",
+			"certificateState": "Estado certificado",
+			"dateActive": "Fecha Activación Cert.",
+			"receptorName": "Nombre receptor",
+			"relationship": "Parentesco",
+			"floor": "Piso",
+			"technicalOrder": "Orden técnico",
+			"tbodyLocation": "Ubicación",
+			"tbodyNacUp": "Nac Sub",
+			"tbodyNacDown": "Nac Desc",
+			"tbodyIntUp": "Int Sub",
+			"tbodyIntDown": "Int Desc",
+			"tbodySignal": "Señal",
+			"tbodyType": "Tipo",
+			"tbodyModel": "Modelo",
+			"tbodyMac": "Mac",
+			"tbodyAcceptLocation": "Ub Aceptada",
+			"tbodyStatus": "Estado",
+			"frequency": "Frecuencia",
+			"emptyWifiCertificateMessage": "Por el momento no hay certificaciones wifi realizadas",
+			"emptyExtensorCertificateMessage": "Por el momento no hay instalacion de algun extensor en este certificado",
+			"buttonClose": "Cerrar",
+			"idClient": "Id Cliente",
+			"buttonReportDetails":"Reporte Detalles"
+		}
+	],
+	"modalDetailCertificateExtensor": [
+		{
+			"titleHead": "Certificado de Plan",
+			"title1": "Extensor",
+			"title2": "Certificado Wifi",
+			"cpeType": "Tipo CPE",
+			"cpeModel": "Modelo CPE",
+			"cpeMac": "Mac CPE",
+			"cpeLocation": "Ubicación CPE",
+			"acceptProposalLocation": "Acepta Propuesta Ubicación",
+			"observation": "Observación",
+			"tbodyLocation": "Ubicación",
+			"tbodyNacUp": "Nac Sub",
+			"tbodyNacDown": "Nac Desc",
+			"tbodyIntUp": "Int Sub",
+			"tbodyIntDown": "Int Desc",
+			"tbodySignal": "Señal",
+			"frequency": "Frecuencia",
+			"emptyWifiCertificateMessage": "Por el momento no hay certificaciones wifi realizadas",
+			"buttonBack": "Volver Atras",
+			"buttonClose": "Cerrar"
+		}
+	],
+	"modalDetailCertificateTest": [
+		{
+			"title": "Detalles certificados pruebas",
+			
+			"titleTestDownload":"Prueba Descarga",
+			"titleTestPing":"Prueba Ping",
+			"titleTestSniffer":"Dispositivos en la red",
+			"titleTestSpeedtest":"Prueba Speedtest",
+			"titleTestNetworksAvailable":"Redes Visibles",
+			"titleTestInformationTest":"Datos de prueba",
+			
+			"subtitleTestDownloadSpe": "SPE",
+			"subtitleTestDownloadAvg": "AVG",
+			"subtitleTestDownloadTim": "TIM",
+			"subtitleTestDownloadSiz": "SIZ",
+			"subtitleTestDownloadTlo": "TLO",
+			"subtitleTestDownloadTco": "TCO",
+			"subtitleTestDownloadTpr": "TPR",
+			"subtitleTestDownloadTst": "TST",
+			"subtitleTestDownloadUrl": "URL",
+			
+			"subtitleTestPingSend": "Enviados",
+			"subtitleTestPingReceived": "Recibidos",
+			"subtitleTestPingLost": "Perdidos",
+			"subtitleTestPingAverage": "Promedio",
+			"subtitleTestPingMinimo": "Mínimo",
+			"subtitleTestPingMaximo": "Máximo",
+			"subtitleTestPingJitter": "Jitter",
+			"subtitleTestPingUrl": "Url",
+			
+			"subtitleTestSniffer": "Dispositivo",
+			"subtitleTestSnifferMessage1": "De un total de: ",
+			"subtitleTestSnifferMessage2": "dispositivos.",
+	
+			"subtitleTestNetworksAvailable":"SSID",
+			"subtitleTestNetworksAvailableMessage":"redes visibles.",	
+			
+			"subtitleTestInformationTestSecurity":"Seguridad",
+			"subtitleTestInformationTestChannel":"Canal",
+			"subtitleTestInformationTestOrigin":"Origen dispositivo",
+			
+			"titleDescription":"Descripción"
+		}
+	],
+	
+	"generalListCertificateStateCertificate": [
+		{
+			"stateCertificateText1": "Todos",
+			
+			"stateCertificateText2": "Activo",
+			"stateCertificateText3": "Cerrado",
+			"stateCertificateText4": "Creado",
+			"stateCertificateText5": "Listo",
+			"stateCertificateText6": "Pendiente",
+			"stateCertificateText7": "Ver Imagen",
+			"stateCertificateText8": "Limpiar Fecha Inicio",
+			"stateCertificateText9": "Limpiar Fecha Término"
+		}
+	]
+}

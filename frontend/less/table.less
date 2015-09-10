@@ -1,0 +1,68 @@
+@import "variables.less";
+
+.row_selected{
+    background-color: @tableRowSelected-backgroundColor;  
+}
+
+.dataTables_length{
+    font-size: @tableLength-fontSize;    
+}
+
+.dataTables_filter{
+    font-size: @tableFilter-fontSize;
+}
+
+// no funka
+thead{
+    font-size: @tableThead-fontSize;
+}
+
+.dataTables_info{
+    font-size: @tableInfo-fontSize;
+}
+
+//  no funka
+.dataTables_paginate{
+    font-size: @tablePaginate-fontSize;
+}  
+
+.paginate_button{
+    font-size: @tablePaginate-fontSize;
+}  
+
+table > thead > tr > th{
+    color: @tableThead-textColor;
+    background-color: @tableThead-backgroundColor;
+}
+
+.metro .dataTable thead .sorting_asc:after, .metro .dataTable thead .sorting_desc:after, .metro .dataTable thead .sorting:after {
+    font-family: metroSysIcons;
+    position: relative;
+    float: inherit;
+    right: auto;
+    left: 10px;
+    color: @tableThead-textColor;
+}
+
+.metro .table thead th {
+    font-size: @tableThead-fontSize;
+}
+
+.metro .table tr td{
+    font-size: @tableContent-fontSize;
+}
+
+.metro .table th, .metro .table td {
+    padding: @tableContent-padding;
+}
+
+.metro .navigation-bar .navigation-bar-content, .metro .navbar .navigation-bar-content, .metro .navigation-bar .navbar-content, .metro .navbar .navbar-content {
+    width: 99.5%;
+}
+
+/*
+
+https://www.youtube.com/watch?v=Pqw-MnuQlHg
+http://ivanmendoza.net/diseno-web-2/lesscss-vs-css
+
+*/

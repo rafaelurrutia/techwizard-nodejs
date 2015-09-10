@@ -1,0 +1,111 @@
+{
+    "data":[
+        {
+            "sidebarTitle": "Reports",
+            "sidebarIcon": "icon-copy",
+            "sidebarSubcategory": [
+                {
+                    "sidebarName": "Dashboard",
+                    "sidebarHref": "../dashboard/",
+                    "sidebarIcon": "icon-dashboard",
+                    "sidebarNumber": 0
+                },
+                {
+                    "sidebarName": "Detail Certificates",
+                    "sidebarHref": "../generalListCertificate/",
+                    "sidebarIcon": "icon-copy",
+                    "sidebarNumber": 1
+                },
+                {
+                    "sidebarName": "Graphics",
+                    "sidebarHref": "#",
+                    "sidebarIcon": "icon-stats-up",
+                    "sidebarNumber": 2,
+                    "sidebarItems": [
+                        {
+                            "itemName": "Covered certificates housing",
+                            "itemHref": "../certifiedHomeCoverage/",
+                            "itemIcon": ""
+                        },
+                        {
+                            "itemName": "% Certificates with extenders",
+                            "itemHref": "../certifiedHighPropagation/",
+                            "itemIcon": ""
+                        },
+                        {
+                            "itemName": "% Installation per room",
+                            "itemHref": "../certifiedTime/",
+                            "itemIcon": ""
+                        },
+                        {
+                            "itemName": "% Status by certificate",
+                            "itemHref": "../speedtest/",
+                            "itemIcon": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sidebarTitle": "Management",
+            "sidebarIcon": "icon-user",
+            "sidebarSubcategory": [
+                {
+                    "sidebarName": "Groups",
+                    "sidebarHref": "../group/",
+                    "sidebarIcon": "fa fa-users",
+                    "sidebarNumber": 3
+                },
+                {
+                    "sidebarName": "Users",
+                    "sidebarHref": "../user/",
+                    "sidebarIcon": "icon-user",
+                    "sidebarNumber": 4
+                },
+                {
+                    "sidebarName": "Configurations",
+                    "sidebarHref": "#",
+                    "sidebarIcon": "icon-cog",
+                    "sidebarNumber": 5,
+                    "sidebarItems": [
+                        {
+                            "itemName": "Packages",
+                            "itemHref": "../planService/",
+                            "itemIcon": ""
+                        },
+                        {
+                            "itemName": "Rooms",
+                            "itemHref": "../room/",
+                            "itemIcon": ""
+                        },
+                        {
+                            "itemName": "CPE Types",
+                            "itemHref": "../cpeType/",
+                            "itemIcon": ""
+                        },
+                        {
+                            "itemName": "CPE Models",
+                            "itemHref": "../cpeModel/",
+                            "itemIcon": ""
+                        },
+                        {
+                            "itemName": "Extender Types",
+                            "itemHref": "../extensorType/",
+                            "itemIcon": ""
+                        },
+                        {
+                            "itemName": "Extender Models",
+                            "itemHref": "../extensorModel/",
+                            "itemIcon": ""
+                        },
+                        {
+                            "itemName": "Test Devices",
+                            "itemHref": "../settingAplication/",
+                            "itemIcon": ""
+                        }
+                    ]
+                }
+            ] 
+        }
+    ]
+}

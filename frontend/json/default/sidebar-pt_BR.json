@@ -1,0 +1,111 @@
+{
+    "data":[
+        {
+            "sidebarTitle": "Relatórios",
+            "sidebarIcon": "icon-copy",
+            "sidebarSubcategory": [
+                {
+                    "sidebarName": "Dashboard",
+                    "sidebarHref": "../dashboard/",
+                    "sidebarIcon": "icon-dashboard",
+                    "sidebarNumber": 0
+                },
+                {
+                    "sidebarName": "Lista Geral Certificados",
+                    "sidebarHref": "../generalListCertificate/",
+                    "sidebarIcon": "icon-copy",
+                    "sidebarNumber": 1
+                },
+                {
+                    "sidebarName": "Gráficos",
+                    "sidebarHref": "#",
+                    "sidebarIcon": "icon-stats-up",
+                    "sidebarNumber": 2,
+                    "sidebarItems": [
+                        {
+                            "itemName": "Covered certificates housing",
+                            "itemHref": "../certifiedHomeCoverage/",
+                            "itemIcon": ""
+                        },
+                        {
+                            "itemName": "% Certificados com extensores",
+                            "itemHref": "../certifiedHighPropagation/",
+                            "itemIcon": ""
+                        },
+                        {
+                            "itemName": "% Installation per room",
+                            "itemHref": "../certifiedTime/",
+                            "itemIcon": ""
+                        },
+                        {
+                            "itemName": "% Certificado estado",
+                            "itemHref": "../speedtest/",
+                            "itemIcon": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sidebarTitle": "Administração",
+            "sidebarIcon": "icon-user",
+            "sidebarSubcategory": [
+                {
+                    "sidebarName": "Grupos",
+                    "sidebarHref": "../group/",
+                    "sidebarIcon": "fa fa-users",
+                    "sidebarNumber": 3
+                },
+                {
+                    "sidebarName": "Usuários",
+                    "sidebarHref": "../user/",
+                    "sidebarIcon": "icon-user",
+                    "sidebarNumber": 4
+                },
+                {
+                    "sidebarName": "Configurações",
+                    "sidebarHref": "#",
+                    "sidebarIcon": "icon-cog",
+                    "sidebarNumber": 5,
+                    "sidebarItems": [
+                        {
+                            "itemName": "Planos de serviço",
+                            "itemHref": "../planService/",
+                            "itemIcon": ""
+                        },
+                        {
+                            "itemName": "Quartos",
+                            "itemHref": "../room/",
+                            "itemIcon": ""
+                        },
+                        {
+                            "itemName": "Tipos CPE",
+                            "itemHref": "../cpeType/",
+                            "itemIcon": ""
+                        },
+                        {
+                            "itemName": "Modelos CPE",
+                            "itemHref": "../cpeModel/",
+                            "itemIcon": ""
+                        },
+                        {
+                            "itemName": "Tipos extensores",
+                            "itemHref": "../extensorType/",
+                            "itemIcon": ""
+                        },
+                        {
+                            "itemName": "Modelos extensores",
+                            "itemHref": "../extensorModel/",
+                            "itemIcon": ""
+                        },
+                        {
+                            "itemName": "Teste dispositivos",
+                            "itemHref": "../settingAplication/",
+                            "itemIcon": ""
+                        }
+                    ]
+                }
+            ] 
+        }
+    ]
+}

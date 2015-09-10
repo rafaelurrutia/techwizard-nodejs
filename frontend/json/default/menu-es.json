@@ -1,0 +1,18 @@
+{
+    "data":[{
+        "menuTitle":"Reportes",
+        "menuHref":"../dashboard/",
+        "menuIcon":"icon-copy"
+    },
+    {
+        "menuTitle":"Administración",
+        "menuHref":"../group/",
+        "menuIcon":"icon-user"
+    }],
+    "options":[{
+        "menuTextCloseSession":"Cerrar Sesion",
+        "menuTextWelcomeUser":"Bienvenido",
+        "menuTextOption":"Opciones",
+        "menuTextChangePassword":"Cambiar Contraseña"
+    }]
+}
